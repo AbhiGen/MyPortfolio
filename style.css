@@ -149,7 +149,6 @@ a:hover {
 /* Section Base Styles */
 section {
   padding-top: 4vh;
-  height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -160,13 +159,15 @@ section {
   display: flex;
 }
 
-/* Profile Section Layout */
+/* Profile Section Layout - Full viewport height */
 #profile {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: 100vh;
   align-items: center;
+  margin: 0;
+  padding: 0 2rem;
 }
 
 /* Circular profile image container */
@@ -187,7 +188,7 @@ section {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  object-position: 30% 10%; /* 30% left shift, 10% top alignment */
+  object-position: 30% 10%;
   border-radius: 50%;
 }
 
@@ -212,7 +213,7 @@ section {
 /* Profile role styling */
 .section__text__p2 {
   font-size: 1.5rem;
-  margin-bottom: 2rem; /* Spacing between role and buttons */
+  margin-bottom: 2rem;
 }
 
 /* Section title styling */
@@ -233,6 +234,12 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
+  transition: transform 0.3s ease;
+}
+
+/* Social icon hover effect */
+.icon:hover {
+  transform: scale(1.2);
 }
 
 /* Button container layout */
@@ -303,7 +310,7 @@ section {
 .about-pic {
   width: 300px;
   height: 300px;
-  border-radius: 1rem; /* Subtle rounded corners */
+  border-radius: 1rem;
   object-fit: cover;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -338,9 +345,99 @@ section {
   margin-top: 1rem;
 }
 
-/* Arrow navigation styling for about section */
+/* Arrow navigation styling for sections */
 .arrow {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+/* Arrow hover effect */
+.arrow:hover {
+  transform: scale(1.2);
+}
+
+/* Experience Section Styles */
+#experience {
+  padding: 4rem 0;
+  text-align: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Experience grid layout - 3x2 grid (three boxes on top, three below) */
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Force three columns */
+  grid-template-rows: repeat(2, auto); /* Two rows for six cards */
+  gap: 2rem;
+  margin-top: 2rem;
+  padding: 0 2rem;
+  max-width: 1200px; /* Limit max width for better alignment */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Experience card styling with enhanced hover effects */
+.experience-card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for experience cards */
+.experience-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+}
+
+/* Experience card title styling */
+.experience-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+  color: #1a202c;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 0.6rem;
+  transition: color 0.3s ease;
+}
+
+/* Change title color on card hover */
+.experience-card:hover h2 {
+  color: #1a202c; /* Keep title color consistent */
+}
+
+/* Tech list styling with bullet points */
+.tech-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Tech list item styling */
+.tech-list li {
+  font-size: 1rem;
+  color: #4a5568;
+  padding: 0.5rem 0;
+  position: relative;
+  padding-left: 1.8rem;
+  transition: transform 0.3s ease, color 0.3s ease; /* Added transform for hover effect */
+}
+
+/* Bullet point styling */
+.tech-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #000000; /* Black bullet points */
+  font-size: 1.2rem;
+}
+
+/* Hover effect for tech list items */
+.tech-list li:hover {
+  color: #000000; /* Black text on hover */
+  transform: translateX(5px); /* Subtle slide effect on hover */
 }
