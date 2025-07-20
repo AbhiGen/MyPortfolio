@@ -1,12 +1,10 @@
-<!-- Replace all occurrences of "assets/" with "assests/" in image src and file references -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Abhiram Bikkina | Portfolio</title>
+    <title>Portfolio</title>
     <!-- Main stylesheet -->
     <link rel="stylesheet" href="style.css" />
     <!-- Responsive styles -->
@@ -15,7 +13,7 @@
   <body>
     <!-- Desktop Navigation Bar -->
     <nav id="desktop-nav">
-      <div class="logo">Abhiram Bikkina</div>
+      <div class="logo">Portfolio</div>
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
@@ -46,26 +44,20 @@
     <!-- Profile Section -->
     <section id="profile">
       <div class="section__pic-container">
-        <!-- Professional profile picture -->
         <img src="assests/profilepic3.png" alt="Abhiram Bikkina profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
         <h1 class="title">Abhiram Bikkina</h1>
         <p class="section__text__p2">Frontend Developer & Problem Solver</p>
-
         <div class="btn-container">
-          <!-- Download CV button -->
           <button class="btn btn-color-2" onclick="window.open('assests/mark2-hackerresume.pdf')">
             Download CV
           </button>
-          <!-- Contact Info button -->
           <button class="btn btn-color-1" onclick="location.href='#contact'">
             Contact Info
           </button>
         </div>
-
-        <!-- Social Media Links -->
         <div id="socials-container">
           <img
             src="assests/linkedin.png"
@@ -87,9 +79,7 @@
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
-
       <div class="section-container about-layout">
-        <!-- Left: Profile Image -->
         <div class="about-pic-container">
           <img
             src="assests/profilepicabout.png"
@@ -97,26 +87,19 @@
             class="about-pic"
           />
         </div>
-
-        <!-- Right: Details -->
         <div class="about-details-container">
           <div class="about-containers">
-            <!-- Experience -->
             <div class="details-container">
               <img src="assests/experience.png" alt="Experience icon" class="icon" />
               <h3>Experience</h3>
               <p>2+ years <br />Full Stack Development</p>
             </div>
-
-            <!-- Education -->
             <div class="details-container">
               <img src="assests/education.png" alt="Education icon" class="icon" />
               <h3>Education</h3>
               <p>B.Tech <br />Amrita Vishwa Vidyapeetham</p>
             </div>
           </div>
-
-          <!-- About Paragraph -->
           <div class="text-container">
             <p>
               I'm Abhiram, a passionate third-year student at Amrita University with a strong drive to solve real-world problems through technology. My expertise lies in frontend development, and I am constantly exploring new tools and frameworks to build impactful solutions. I value continuous learning, teamwork, and curiosity. Outside of tech, I enjoy sports, which instill energy and discipline—qualities I bring to every project.
@@ -124,8 +107,6 @@
           </div>
         </div>
       </div>
-
-      <!-- Down Arrow for navigation -->
       <img
         src="assests/down-arrow.png"
         alt="Scroll down"
@@ -134,9 +115,74 @@
       />
     </section>
 
-    <!-- TODO: Add Experience, Projects, and Contact sections for completeness and professionalism -->
+    <!-- Experience Section -->
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Tech Stack & Tools</h1>
+      <div class="experience-grid">
+        <div class="experience-card">
+          <h2>Frontend Technologies</h2>
+          <ul class="tech-list">
+            <li>Html</li>
+            <li>Css</li>
+            <li>JavaScript</li>
+            <li>React Js</li>
+          </ul>
+        </div>
+        <div class="experience-card">
+          <h2>Backend & API</h2>
+          <ul class="tech-list">
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>RESTful APIs</li>
+          </ul>
+        </div>
+        <div class="experience-card">
+          <h2>UI Frameworks / Styling</h2>
+          <ul class="tech-list">
+            <li>Tailwind CSS</li>
+            <li>ShadcnUI</li>
+            <li>Bootstrap</li>
+            <li>SASS</li>
+          </ul>
+        </div>
+        <div class="experience-card">
+          <h2>Cloud & Version Control</h2>
+          <ul class="tech-list">
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>AWS</li>
+            <li>Vercel</li>
+            <li>Render</li>
+          </ul>
+        </div>
+        <div class="experience-card">
+          <h2>Tools & Platforms</h2>
+          <ul class="tech-list">
+            <li>VS Code</li>
+            <li>Eclipse</li>
+            <li>Dev C++</li>
+            <li>Postman</li>
+            <li>Chrome DevTools</li>
+          </ul>
+        </div>
+        <div class="experience-card">
+          <h2>Databases</h2>
+          <ul class="tech-list">
+            <li>MongoDB</li>
+            <li>MySQL</li>
+          </ul>
+        </div>
+      </div>
+      <img
+        src="assests/down-arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#projects'"
+      />
+    </section>
 
-    <!-- External JS file for interactivity -->
+    <!-- External JS file -->
     <script src="script.js"></script>
   </body>
 </html>
