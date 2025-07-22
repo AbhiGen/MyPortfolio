@@ -20,7 +20,7 @@ html {
 
 /* Paragraph styling for consistent color */
 p {
-  color: rgb(85, 85, 85);
+  color: beige;
 }
 
 /* Anchor and button transition effects */
@@ -367,15 +367,15 @@ section {
   margin: 0;
 }
 
-/* Experience grid layout - 3x2 grid (three boxes on top, three below) */
+/* Experience grid layout - 3x2 grid */
 .experience-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Force three columns */
-  grid-template-rows: repeat(2, auto); /* Two rows for six cards */
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
   gap: 2rem;
   margin-top: 2rem;
   padding: 0 2rem;
-  max-width: 1200px; /* Limit max width for better alignment */
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -402,12 +402,6 @@ section {
   color: #1a202c;
   border-bottom: 2px solid #e2e8f0;
   padding-bottom: 0.6rem;
-  transition: color 0.3s ease;
-}
-
-/* Change title color on card hover */
-.experience-card:hover h2 {
-  color: #1a202c; /* Keep title color consistent */
 }
 
 /* Tech list styling with bullet points */
@@ -424,7 +418,7 @@ section {
   padding: 0.5rem 0;
   position: relative;
   padding-left: 1.8rem;
-  transition: transform 0.3s ease, color 0.3s ease; /* Added transform for hover effect */
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
 /* Bullet point styling */
@@ -432,34 +426,33 @@ section {
   content: "•";
   position: absolute;
   left: 0;
-  color: #000000; /* Black bullet points */
+  color: #000000;
   font-size: 1.2rem;
 }
 
 /* Hover effect for tech list items */
 .tech-list li:hover {
-  color: #000000; /* Black text on hover */
-  transform: translateX(5px); /* Subtle slide effect on hover */
+  color: #000000;
+  transform: translateX(5px);
 }
-/* PROJECTS SECTION */
-/* PROJECTS SECTION */
 
+/* Projects Section Styles */
 #projects {
   position: relative;
   display: flex;
-  flex-direction: column; /* Stacks the text and then the project cards */
-  align-items: center; /* Center horizontally */
-  padding: 2rem; /* Add some padding around the whole section */
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
 }
 
 .project-container-wrapper {
-  display: flex; /* Arrange projects in a row */
-  justify-content: center; /* Center the project cards within the wrapper */
-  flex-wrap: wrap; /* Allow projects to wrap to the next line on smaller screens */
-  gap: 2rem; /* Space between project cards */
-  margin-top: 2rem; /* Space between the title and the project cards */
-  width: 100%; /* Ensure wrapper takes full width available */
-  max-width: 1200px; /* Optional: limit overall width for very large screens */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .color-container {
@@ -468,88 +461,124 @@ section {
   border-radius: 2rem;
   padding: 1.5rem;
   text-align: center;
-  /* Default for wider screens: 3 projects per row */
   flex: 1 1 calc(33.33% - 2rem);
   min-width: 280px;
   max-width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
-  display: flex; /* Use flexbox for internal content alignment */
+  display: flex;
   flex-direction: column;
-  justify-content: space-between; /* Pushes buttons to the bottom */
-  align-items: center; /* Centers content horizontally within the card */
+  justify-content: space-between;
+  align-items: center;
 }
 
 .color-container:hover {
   transform: translateY(-5px);
 }
 
+.article-container {
+  position: relative;
+  width: 90%;
+}
+
 .project-img {
   border-radius: 2rem;
-  width: 90%;
+  width: 100%;
   height: auto;
   margin-bottom: 1rem;
-  object-fit: cover; /* Ensures images cover the area without distortion */
+  object-fit: cover;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.color-container:hover .project-img {
+  opacity: 0;
+}
+
+.project-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 2rem;
+  padding: 1rem;
+}
+
+.color-container:hover .project-overlay {
+  opacity: 1;
+}
+
+.project-overlay p {
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+  text-align: center;
 }
 
 .project-title {
   margin: 1rem 0;
   color: black;
   font-size: 1.5rem;
-  white-space: nowrap; /* Prevent title from breaking into multiple lines */
-  overflow: hidden; /* Hide overflow if title is too long */
-  text-overflow: ellipsis; /* Add ellipsis if title is too long */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.experience-sub-title {
+  margin-bottom: 0.5rem;
 }
 
 .btn-container {
-  display: flex; /* Arrange buttons in a row */
-  justify-content: center; /* Center buttons */
-  gap: 1rem; /* Space between buttons */
-  margin-top: auto; /* Push button container to the bottom of the flex card */
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: auto;
 }
 
 .project-btn {
   color: black;
-  border: 1px solid rgb(163, 163, 163); /* Explicit border for clarity */
+  border: 1px solid rgb(163, 163, 163);
   padding: 0.8rem 1.5rem;
   border-radius: 2rem;
   cursor: pointer;
-  background: none; /* No background by default */
+  background: none;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-  text-decoration: none; /* Remove underline from links if applicable */
-  display: inline-block; /* Ensure padding and margin apply correctly */
+  text-decoration: none;
+  display: inline-block;
 }
 
 .project-btn:hover {
-  background-color:#4a5568;
+  background-color:rgb(53, 53, 53);
   color: white;
 }
 
-/* Specific styling for the buttons (assuming btn-color-2 is a general button style) */
 .btn-color-2 {
   background: none;
 }
 
-
 /* Media queries for responsiveness */
-
-/* For screens up to 1024px (typically for 2 columns) */
 @media screen and (max-width: 1024px) {
   .color-container {
-    flex-basis: calc(50% - 2rem); /* Two cards per row */
-    max-width: 450px; /* Adjust max-width as needed */
+    flex-basis: calc(50% - 2rem);
+    max-width: 450px;
   }
 }
 
-/* For screens up to 768px (typically for 1 column) */
 @media screen and (max-width: 768px) {
   .project-container-wrapper {
-    flex-direction: column; /* Stack projects vertically */
-    align-items: center; /* Center stacked projects */
+    flex-direction: column;
+    align-items: center;
   }
   .color-container {
-    flex-basis: 90%; /* Take almost full width when stacked */
-    max-width: 400px; /* Adjust max width for stacked cards */
+    flex-basis: 90%;
+    max-width: 400px;
     padding: 1rem;
   }
   .project-title {
@@ -560,24 +589,26 @@ section {
   }
 }
 
-/* For very small screens (e.g., mobile phones) */
 @media screen and (max-width: 480px) {
-    .color-container {
-        padding: 0.8rem;
-    }
-    .project-img {
-        width: 100%;
-    }
-    .project-title {
-        font-size: 1.1rem;
-    }
-    .project-btn {
-        padding: 0.5rem 1rem;
-        font-size: 0.9rem;
-        margin: 0.3rem;
-    }
-    .btn-container {
-        flex-direction: column; /* Stack buttons vertically on very small screens */
-        gap: 0.5rem;
-    }
+  .color-container {
+    padding: 0.8rem;
+  }
+  .project-img {
+    width: 100%;
+  }
+  .project-title {
+    font-size: 1.1rem;
+  }
+  .project-btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    margin: 0.3rem;
+  }
+  .btn-container {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .project-overlay p {
+    font-size: 0.8rem;
+  }
 }
