@@ -2,8 +2,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const themeToggle = document.getElementById('theme-toggle');
   const body = document.body;
   const socialsContainer = document.getElementById('socials-container');
-
   // Save original icons for restoring in light mode
+
+  
   const originalIcons = {
     linkedin: {
       src: 'assests/linkedin.png',

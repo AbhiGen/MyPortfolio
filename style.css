@@ -1153,7 +1153,106 @@ body.dark-theme .form-status {
     font-size: 0.8rem;
   }
 }
-/* Make GitHub and LinkedIn icons visible in dark mode using brightness filter */
-body.dark-theme img.contact-icon {
+/* Foote/* === Footer Styles === */
+#footer {
+  background: linear-gradient(135deg, #ffffff 0%, #f4f4f4 100%);
+  padding: 2rem 1rem;
+  text-align: center;
+  border-top: 1px solid #e5e7eb;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05);
+  transition: background 0.3s ease;
+}
 
+body.dark-theme #footer {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+  border-top: 1px solid #3b3b3b;
+  box-shadow: 0 -2px 12px rgba(255, 255, 255, 0.05);
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* === Footer Text === */
+.footer-text {
+  font-size: 0.95rem;
+  color: #333333;
+  font-weight: 500;
+}
+
+body.dark-theme .footer-text {
+  color: #e2e8f0;
+}
+
+/* === Social Icons === */
+.footer-socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-socials a {
+  color: #3b3b3b;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.footer-socials a:hover {
+  color: #3b82f6;
+}
+
+body.dark-theme .footer-socials a {
+  color: #cccccc;
+}
+
+body.dark-theme .footer-socials a:hover {
+  color: #90cdf4;
+}
+
+/* === Back to Top Button === */
+.back-to-top {
+  padding: 0.6rem 1.3rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 999px;
+  background-color: #3b3b3b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.back-to-top:hover {
+  background-color: #111;
+}
+
+body.dark-theme .back-to-top {
+  background-color: #ffffff22;
+  color: #e2e8f0;
+}
+
+body.dark-theme .back-to-top:hover {
+  background-color: #ffffff44;
+}
+
+/* === Responsive Footer === */
+@media screen and (max-width: 768px) {
+  .footer-container {
+    padding: 0 0.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer-text {
+    font-size: 0.85rem;
+  }
+
+  .back-to-top {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
 }
