@@ -75,220 +75,229 @@
       </div>
     </section>
 
-    <!-- About section with bio and details -->
+    <!-- About section with professional design -->
     <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
-      <div class="section-container about-layout">
-        <div class="about-pic-container">
-          <img
-            src="assests/profilepicabout.png"
-            alt="Abhiram Bikkina"
-            class="about-pic"
-          />
-        </div>
-        <div class="about-details-container">
-          <div class="about-containers">
-            <div class="details-container">
-              <img src="assests/experience.png" alt="Experience icon" class="icon" />
-              <h3>Experience</h3>
-              <p>2+ years <br />Full Stack Development</p>
-            </div>
-            <div class="details-container">
-              <img src="assests/education.png" alt="Education icon" class="icon" />
-              <h3>Education</h3>
-              <p>B.Tech <br />Amrita Vishwa Vidyapeetham</p>
-            </div>
+  <p class="section__text__p1">Get To Know More</p>
+  <h1 class="title">About Me</h1>
+
+  <div class="about-layout">
+    <div class="about-pic-container">
+      <img src="assests/profilepicabout.png" alt="Abhiram Bikkina" class="about-pic" />
+    </div>
+
+    <div class="about-content">
+      <div class="about-cards">
+        <div class="about-card">
+          <img src="assests/experience.png" alt="Experience icon" class="icon" />
+          <div>
+            <h3>Experience</h3>
+            <p>2+ years<br />Full Stack Development</p>
           </div>
-          <div class="text-container">
-            <p>
-              I'm Abhiram, a passionate third-year student at Amrita University with a strong drive to solve real-world problems through technology. My expertise lies in frontend development, and I am constantly exploring new tools and frameworks to build impactful solutions. I value continuous learning, teamwork, and curiosity. Outside of tech, I enjoy sports, which instill energy and discipline—qualities I bring to every project.
-            </p>
+        </div>
+        <div class="about-card">
+          <img src="assests/education.png" alt="Education icon" class="icon" />
+          <div>
+            <h3>Education</h3>
+            <p>B.Tech<br />Amrita Vishwa Vidyapeetham</p>
           </div>
         </div>
       </div>
-      <img
-        src="assests/down-arrow.png"
-        alt="Scroll down"
-        class="icon arrow"
-        onclick="location.href='#experience'"
-      />
+
+      <div class="about-text">
+        <p>
+          I'm Abhiram, a passionate third-year student at Amrita University with a strong drive to solve real-world problems through technology.
+          My expertise lies in frontend development, and I am constantly exploring new tools and frameworks to build impactful solutions.
+          I value continuous learning, teamwork, and curiosity.
+          Outside of tech, I enjoy sports, which instill energy and discipline—qualities I bring to every project.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <img src="assests/down-arrow.png" alt="Scroll down" class="icon arrow" onclick="location.href='#skills'" />
     </section>
 
-    <!-- Experience section with tech stack -->
-    <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Tech Stack & Tools</h1>
-      <div class="experience-grid">
-        <div class="experience-card">
-          <h2>Frontend Technologies</h2>
-          <ul class="tech-list">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React.js</li>
-          </ul>
-        </div>
-        <div class="experience-card">
-          <h2>Backend & API</h2>
-          <ul class="tech-list">
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>RESTful APIs</li>
-          </ul>
-        </div>
-        <div class="experience-card">
-          <h2>UI Frameworks / Styling</h2>
-          <ul class="tech-list">
-            <li>Tailwind CSS</li>
-            <li>ShadcnUI</li>
-            <li>Bootstrap</li>
-            <li>SASS</li>
-          </ul>
-        </div>
-        <div class="experience-card">
-          <h2>Cloud & Version Control</h2>
-          <ul class="tech-list">
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>AWS</li>
-            <li>Vercel</li>
-            <li>Render</li>
-          </ul>
-        </div>
-        <div class="experience-card">
-          <h2>Tools & Platforms</h2>
-          <ul class="tech-list">
-            <li>VS Code</li>
-            <li>Eclipse</li>
-            <li>Dev C++</li>
-            <li>Postman</li>
-            <li>Chrome DevTools</li>
-          </ul>
-        </div>
-        <div class="experience-card">
-          <h2>Databases</h2>
-          <ul class="tech-list">
-            <li>MongoDB</li>
-            <li>MySQL</li>
-          </ul>
-        </div>
+    <!-- skill set -->
+    <section id="skills">
+  <p class="section__text__p1">Explore My</p>
+  <h1 class="title">Skills</h1>
+
+  <div class="skill-buttons">
+    <button class="skill-tab active" onclick="showSkill('frontend')">Frontend</button>
+    <button class="skill-tab" onclick="showSkill('backend')">Backend & API</button>
+    <button class="skill-tab" onclick="showSkill('ui')">UI Frameworks</button>
+    <button class="skill-tab" onclick="showSkill('cloud')">Cloud & Git</button>
+    <button class="skill-tab" onclick="showSkill('tools')">Tools</button>
+    <button class="skill-tab" onclick="showSkill('db')">Databases</button>
+  </div>
+
+  <div id="skills-display">
+    <div class="experience-card" id="frontend">
+      <h2>Frontend Technologies</h2>
+      <div class="skills-box">
+        <span class="skill-item">HTML</span>
+        <span class="skill-item">CSS</span>
+        <span class="skill-item">JavaScript</span>
+        <span class="skill-item">React.js</span>
       </div>
-      <img
-        src="assests/down-arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='#projects'"
-      />
+    </div>
+
+    <div class="experience-card hidden" id="backend">
+      <h2>Backend & API</h2>
+      <div class="skills-box">
+        <span class="skill-item">Node.js</span>
+        <span class="skill-item">Express.js</span>
+        <span class="skill-item">RESTful APIs</span>
+      </div>
+    </div>
+
+    <div class="experience-card hidden" id="ui">
+      <h2>UI Frameworks / Styling</h2>
+      <div class="skills-box">
+        <span class="skill-item">Tailwind CSS</span>
+        <span class="skill-item">ShadcnUI</span>
+        <span class="skill-item">Bootstrap</span>
+        <span class="skill-item">SASS</span>
+      </div>
+    </div>
+
+    <div class="experience-card hidden" id="cloud">
+      <h2>Cloud & Version Control</h2>
+      <div class="skills-box">
+        <span class="skill-item">Git</span>
+        <span class="skill-item">GitHub</span>
+        <span class="skill-item">AWS</span>
+        <span class="skill-item">Vercel</span>
+        <span class="skill-item">Render</span>
+      </div>
+    </div>
+
+    <div class="experience-card hidden" id="tools">
+      <h2>Tools & Platforms</h2>
+      <div class="skills-box">
+        <span class="skill-item">VS Code</span>
+        <span class="skill-item">Eclipse</span>
+        <span class="skill-item">Dev C++</span>
+        <span class="skill-item">Postman</span>
+        <span class="skill-item">Chrome DevTools</span>
+      </div>
+    </div>
+
+    <div class="experience-card hidden" id="db">
+      <h2>Databases</h2>
+      <div class="skills-box">
+        <span class="skill-item">MongoDB</span>
+        <span class="skill-item">MySQL</span>
+      </div>
+    </div>
+  </div>
     </section>
 
     <!-- Projects section with enhanced professional design -->
-    <!-- Your existing HTML head and body before the project section stays unchanged -->
-
-<!-- Projects section with enhanced professional design -->
-<section id="projects">
+    <section id="projects">
   <p class="section__text__p1">Browse My Recent</p>
   <h1 class="title">Projects</h1>
+
   <div class="project-container-wrapper">
-    
-    <!-- Existing Project 1 -->
-    <div class="experience-details-container color-container">
-      <div class="article-container">
-        <img src="assests/aimockproject.png" alt="HireVerse Project" class="project-img" />
+
+    <!-- Project 1 -->
+    <div class="project-card">
+      <div class="project-img-container">
+        <img src="assests/aimockproject.png" alt="HireVerse" class="project-img">
         <div class="project-overlay">
           <p><strong>Description:</strong> An AI-powered platform for mock interviews.</p>
           <p><strong>Tools:</strong> React.js, Node.js, Express.js, MongoDB, Tailwind CSS</p>
         </div>
       </div>
-      <h2 class="experience-sub-title project-title">HireVerse</h2>
+      <h3 class="project-title">HireVerse</h3>
       <div class="btn-container">
-        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/AbhiGen/HireVerse.git'">Github</button>
-        <button class="btn btn-color-2 project-btn" onclick="location.href='https://ai-mock-interview-qsvj.onrender.com/'">Live Demo</button>
+        <a href="https://github.com/AbhiGen/HireVerse.git" class="project-btn">Github</a>
+        <a href="https://ai-mock-interview-qsvj.onrender.com/" class="project-btn">Live Demo</a>
       </div>
     </div>
 
-    <!-- Existing Project 2 -->
-    <div class="experience-details-container color-container">
-      <div class="article-container">
-        <img src="assests/mediSphereproject.png" alt="MediSphere Project" class="project-img" />
+    <!-- Project 2 -->
+    <div class="project-card">
+      <div class="project-img-container">
+        <img src="assests/mediSphereproject.png" alt="MediSphere" class="project-img">
         <div class="project-overlay">
           <p><strong>Description:</strong> Smart hospitalization platform.</p>
           <p><strong>Tools:</strong> React.js, Node.js, MongoDB, Tailwind CSS, AWS</p>
         </div>
       </div>
-      <h2 class="experience-sub-title project-title">MediSphere</h2>
+      <h3 class="project-title">MediSphere</h3>
       <div class="btn-container">
-        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/AbhiGen/MediSphere-Smart-Hospitalization.git'">Github</button>
-        <button class="btn btn-color-2 project-btn" onclick="location.href='https://medisphere-f3b4.onrender.com/'">Live Demo</button>
+        <a href="https://github.com/AbhiGen/MediSphere-Smart-Hospitalization.git" class="project-btn">Github</a>
+        <a href="https://medisphere-f3b4.onrender.com/" class="project-btn">Live Demo</a>
       </div>
     </div>
 
-    <!-- Existing Project 3 -->
-    <div class="experience-details-container color-container">
-      <div class="article-container">
-        <img src="assests/jarvisAiproject.png" alt="VirtualAssistant Project" class="project-img" />
+    <!-- Project 3 -->
+    <div class="project-card">
+      <div class="project-img-container">
+        <img src="assests/jarvisproimg.png" alt="VirtualAssistant" class="project-img">
         <div class="project-overlay">
           <p><strong>Description:</strong> A virtual assistant with AI features.</p>
           <p><strong>Tools:</strong> Python, JavaScript, Node.js, RESTful APIs</p>
         </div>
       </div>
-      <h2 class="experience-sub-title project-title">VirtualAssistant</h2>
+      <h3 class="project-title">VirtualAssistant</h3>
       <div class="btn-container">
-        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/AbhiGen/Jarvis-Virtual-Assistant.git'">Github</button>
+        <a href="https://github.com/AbhiGen/Jarvis-Virtual-Assistant.git" class="project-btn">Github</a>
       </div>
     </div>
 
-    <!-- Existing Project 4 -->
-    <div class="experience-details-container color-container">
-      <div class="article-container">
-        <img src="assests/a2zpharmacyproject.png" alt="A2Z Pharmacy Project" class="project-img" />
+    <!-- Project 4 -->
+    <div class="project-card">
+      <div class="project-img-container">
+        <img src="assests/a2zpharmacyproject.png" alt="A2Z Pharmacy" class="project-img">
         <div class="project-overlay">
           <p><strong>Description:</strong> Online pharmacy website.</p>
           <p><strong>Tools:</strong> HTML, CSS, JavaScript, Bootstrap, Node.js</p>
         </div>
       </div>
-      <h2 class="experience-sub-title project-title">A2Z Pharmacy</h2>
+      <h3 class="project-title">A2Z Pharmacy</h3>
       <div class="btn-container">
-        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/AbhiGen/pharmacy-website.git'">Github</button>
+        <a href="https://github.com/AbhiGen/pharmacy-website.git" class="project-btn">Github</a>
       </div>
     </div>
 
-    <!-- New Project 5 -->
-    <div class="experience-details-container color-container">
-      <div class="article-container">
-        <img src="assests/aimockproject.png" alt="Project 5" class="project-img" />
+    <!-- Project 5 -->
+    <div class="project-card">
+      <div class="project-img-container">
+        <img src="assests/aimockproject.png" alt="Project 5" class="project-img">
         <div class="project-overlay">
           <p><strong>Description:</strong> Placeholder for a professional project.</p>
           <p><strong>Tools:</strong> React.js, Express.js, MongoDB</p>
         </div>
       </div>
-      <h2 class="experience-sub-title project-title">Project 5</h2>
+      <h3 class="project-title">Project 5</h3>
       <div class="btn-container">
-        <button class="btn btn-color-2 project-btn" onclick="location.href='#'">Github</button>
-        <button class="btn btn-color-2 project-btn" onclick="location.href='#'">Live Demo</button>
+        <a href="#" class="project-btn">Github</a>
+        <a href="#" class="project-btn">Live Demo</a>
       </div>
     </div>
 
-    <!-- New Project 6 -->
-    <div class="experience-details-container color-container">
-      <div class="article-container">
-        <img src="assests/aimockproject.png" alt="Project 6" class="project-img" />
+    <!-- Project 6 -->
+    <div class="project-card">
+      <div class="project-img-container">
+        <img src="assests/aimockproject.png" alt="Project 6" class="project-img">
         <div class="project-overlay">
           <p><strong>Description:</strong> Placeholder for another creative solution.</p>
           <p><strong>Tools:</strong> MERN stack, Tailwind CSS</p>
         </div>
       </div>
-      <h2 class="experience-sub-title project-title">Project 6</h2>
+      <h3 class="project-title">Project 6</h3>
       <div class="btn-container">
-        <button class="btn btn-color-2 project-btn" onclick="location.href='#'">Github</button>
-        <button class="btn btn-color-2 project-btn" onclick="location.href='#'">Live Demo</button>
+        <a href="#" class="project-btn">Github</a>
+        <a href="#" class="project-btn">Live Demo</a>
       </div>
     </div>
 
   </div>
-  <img src="assests/down-arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#contact'" />
-</section>
 
+  <img src="assests/down-arrow.png" alt="Scroll" class="icon arrow" onclick="location.href='#contact'" />
+    </section>
 
     <!-- Contact section with contact information -->
     <section id="contact">
@@ -297,7 +306,7 @@
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img src="./assests/email.png" alt="Email icon" class="icon contact-icon" />
-          <p><a href="mailto:your.email@example.com">your.email@example.com</a></p>
+          <p><a href="mailto:your.email@example.com">abhirambikkina333@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
           <img src="./assests/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
@@ -339,7 +348,7 @@
         <p class="footer-text">© 2025 Abhiram Bikkina. All rights reserved.</p>
     </footer>
 
-    <!-- Include JavaScript for hamburger menu and theme toggle -->
+    <!-- JavaScript for hamburger menu and theme toggle -->
     <script src="script.js"></script>
   </body>
 </html>
