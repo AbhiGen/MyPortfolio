@@ -77,3 +77,33 @@ document.addEventListener('DOMContentLoaded', () => {
     updateTheme(newTheme);
   });
 });
+
+function showSkill(id, button) {
+  // Hide all cards
+  const cards = document.querySelectorAll('.experience-card');
+  cards.forEach(card => card.classList.remove('active'));
+
+  // Show the selected one
+  document.getElementById(id).classList.add('active');
+
+  // Remove active class from all buttons
+  const buttons = document.querySelectorAll('.skill-tab');
+  buttons.forEach(btn => btn.classList.remove('active'));
+
+  // Add active to current button
+  button.classList.add('active');
+}
+
+function showSkill(skillId) {
+  // Hide all skill sections
+  const allCards = document.querySelectorAll('.experience-card');
+  allCards.forEach(card => card.classList.add('hidden'));
+
+  // Show selected skill section
+  document.getElementById(skillId).classList.remove('hidden');
+
+  // Update active tab
+  const tabs = document.querySelectorAll('.skill-tab');
+  tabs.forEach(tab => tab.classList.remove('active'));
+  document.querySelector(`[onclick="showSkill('${skillId}')"]`).classList.add('active');
+}
