@@ -5,350 +5,397 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <!-- Link to main stylesheet -->
+    <meta name="description" content="Abhiram Bikkina - Full Stack Developer Portfolio. Experienced in React, Node.js, MongoDB, and modern web technologies." />
+    <meta name="keywords" content="Full Stack Developer, React, Node.js, JavaScript, Portfolio, Web Development" />
+    <meta name="author" content="Abhiram Bikkina" />
+    
+    <!-- Open Graph meta tags for social sharing -->
+    <meta property="og:title" content="Abhiram Bikkina - Full Stack Developer" />
+    <meta property="og:description" content="Passionate Full Stack Developer with expertise in modern web technologies" />
+    <meta property="og:type" content="website" />
+    
+    <title>Abhiram Bikkina - Full Stack Developer Portfolio</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" as="style" />
+    
+    <!-- Link to stylesheets -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assests/profilepic3.png" />
   </head>
   <body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
     <!-- Desktop navigation bar with theme toggle -->
-    <nav id="desktop-nav">
-      <div class="logo">Portfolio</div>
+    <nav id="desktop-nav" role="navigation" aria-label="Main navigation">
+      <div class="logo">
+        <h2>Abhiram Bikkina</h2>
+      </div>
       <div class="nav-container">
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <ul class="nav-links" role="menubar">
+          <li role="none"><a href="#about" role="menuitem">About</a></li>
+          <li role="none"><a href="#skills" role="menuitem">Skills</a></li>
+          <li role="none"><a href="#projects" role="menuitem">Projects</a></li>
+          <li role="none"><a href="#contact" role="menuitem">Contact</a></li>
         </ul>
-        <img src="assests/moon.png" alt="Theme Toggle" class="theme-toggle" id="theme-toggle" style="margin-left: 2rem;" />
+        <button 
+          class="theme-toggle" 
+          id="theme-toggle" 
+          aria-label="Toggle dark mode"
+          type="button"
+        >
+          <img src="assests/moon.png" alt="Toggle theme" />
+        </button>
       </div>
     </nav>
 
     <!-- Mobile hamburger navigation -->
-    <nav id="hamburger-nav">
+    <nav id="hamburger-nav" role="navigation" aria-label="Mobile navigation">
+      <div class="logo">
+        <h2>Abhiram Bikkina</h2>
+      </div>
       <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
+        <button 
+          class="hamburger-icon" 
+          onclick="toggleMenu()" 
+          aria-label="Toggle mobile menu"
+          aria-expanded="false"
+          type="button"
+        >
           <span></span>
           <span></span>
           <span></span>
-        </div>
-        <ul class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </button>
+        <ul class="menu-links" role="menu">
+          <li role="none"><a href="#about" onclick="toggleMenu()" role="menuitem">About</a></li>
+          <li role="none"><a href="#skills" onclick="toggleMenu()" role="menuitem">Skills</a></li>
+          <li role="none"><a href="#projects" onclick="toggleMenu()" role="menuitem">Projects</a></li>
+          <li role="none"><a href="#contact" onclick="toggleMenu()" role="menuitem">Contact</a></li>
         </ul>
       </div>
     </nav>
 
-    <!-- Profile section with image and introduction -->
-    <section id="profile">
-      <div class="section__pic-container">
-        <img src="assests/profilepic3.png" alt="Abhiram Bikkina profile picture" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Abhiram Bikkina</h1>
-        <p class="section__text__p2">Full Stack Developer</p>
-        <div class="btn-container">
-          <button class="btn btn-color-2" onclick="window.open('assests/mark2-hackerresume.pdf')">
-            Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='#contact'">
-            Contact Info
-          </button>
+    <main id="main-content">
+      <!-- Profile section with image and introduction -->
+      <section id="profile" aria-labelledby="profile-heading">
+        <div class="section__pic-container">
+          <img src="assests/profilepic3.png" alt="Abhiram Bikkina - Full Stack Developer" />
         </div>
-        <div id="socials-container" style="margin-top: 1.5rem;">
-          <img
-            src="assests/linkedin.png"
-            alt="LinkedIn profile"
-            class="icon"
-            onclick="window.open('https://www.linkedin.com/in/abhiram-bikkina-96a342282', '_blank')"
-          />
-          <img
-            src="assests/github.png"
-            alt="Github profile"
-            class="icon"
-            onclick="window.open('https://github.com/AbhiGen', '_blank')"
-          />
-        </div>
-      </div>
-    </section>
-
-    <!-- About section with professional design -->
-    <section id="about">
-  <p class="section__text__p1">Get To Know More</p>
-  <h1 class="title">About Me</h1>
-
-  <div class="about-layout">
-    <div class="about-pic-container">
-      <img src="assests/profilepicabout.png" alt="Abhiram Bikkina" class="about-pic" />
-    </div>
-
-    <div class="about-content">
-      <div class="about-cards">
-        <div class="about-card">
-          <img src="assests/experience.png" alt="Experience icon" class="icon" />
-          <div>
-            <h3>Experience</h3>
-            <p>2+ years<br />Full Stack Development</p>
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 id="profile-heading" class="title">Abhiram Bikkina</h1>
+          <p class="section__text__p2">Full Stack Developer</p>
+          <div class="btn-container">
+            <button 
+              class="btn btn-color-2" 
+              onclick="window.open('assests/mark2-hackerresume.pdf')"
+              aria-label="Download CV PDF"
+            >
+              <span>Download CV</span>
+            </button>
+            <button 
+              class="btn btn-color-1" 
+              onclick="location.href='#contact'"
+              aria-label="Go to contact section"
+            >
+              <span>Contact Info</span>
+            </button>
+          </div>
+          <div id="socials-container" class="socials-container">
+            <a
+              href="https://www.linkedin.com/in/abhiram-bikkina-96a342282"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn profile"
+              class="social-link"
+            >
+              <img src="assests/linkedin.png" alt="LinkedIn" class="icon" />
+            </a>
+            <a
+              href="https://github.com/AbhiGen"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub profile"
+              class="social-link"
+            >
+              <img src="assests/github.png" alt="GitHub" class="icon" />
+            </a>
           </div>
         </div>
-        <div class="about-card">
-          <img src="assests/education.png" alt="Education icon" class="icon" />
-          <div>
-            <h3>Education</h3>
-            <p>B.Tech<br />Amrita Vishwa Vidyapeetham</p>
+      </section>
+
+      <!-- About section with professional design -->
+      <section id="about" aria-labelledby="about-heading">
+        <p class="section__text__p1">Get To Know More</p>
+        <h2 id="about-heading" class="title">About Me</h2>
+
+        <div class="about-layout">
+          <div class="about-pic-container">
+            <img src="assests/profilepicabout.png" alt="Abhiram Bikkina in professional setting" class="about-pic" />
+          </div>
+
+          <div class="about-content">
+            <div class="about-cards">
+              <div class="about-card">
+                <img src="assests/experience.png" alt="" class="icon" role="presentation" />
+                <div>
+                  <h3>Experience</h3>
+                  <p>2+ years<br />Full Stack Development</p>
+                </div>
+              </div>
+              <div class="about-card">
+                <img src="assests/education.png" alt="" class="icon" role="presentation" />
+                <div>
+                  <h3>Education</h3>
+                  <p>B.Tech<br />Amrita Vishwa Vidyapeetham</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-text">
+              <p>
+                I'm Abhiram, a passionate third-year student at Amrita University with a strong drive to solve real-world problems through technology.
+                My expertise lies in frontend development, and I am constantly exploring new tools and frameworks to build impactful solutions.
+                I value continuous learning, teamwork, and curiosity.
+                Outside of tech, I enjoy sports, which instill energy and discipline—qualities I bring to every project.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="about-text">
-        <p>
-          I'm Abhiram, a passionate third-year student at Amrita University with a strong drive to solve real-world problems through technology.
-          My expertise lies in frontend development, and I am constantly exploring new tools and frameworks to build impactful solutions.
-          I value continuous learning, teamwork, and curiosity.
-          Outside of tech, I enjoy sports, which instill energy and discipline—qualities I bring to every project.
-        </p>
-      </div>
-    </div>
-  </div>
+        <button 
+          class="scroll-arrow" 
+          onclick="location.href='#skills'" 
+          aria-label="Scroll to skills section"
+        >
+          <img src="assests/down-arrow.png" alt="Scroll down" class="icon arrow" />
+        </button>
+      </section>
 
-  <img src="assests/down-arrow.png" alt="Scroll down" class="icon arrow" onclick="location.href='#skills'" />
-    </section>
+      <!-- Skills section -->
+      <section id="skills" aria-labelledby="skills-heading">
+        <p class="section__text__p1">Explore My</p>
+        <h2 id="skills-heading" class="title">Skills</h2>
 
-    <!-- skill set -->
-    <section id="skills">
-  <p class="section__text__p1">Explore My</p>
-  <h1 class="title">Skills</h1>
-
-  <div class="skill-buttons">
-    <button class="skill-tab active" onclick="showSkill('frontend')">Frontend</button>
-    <button class="skill-tab" onclick="showSkill('backend')">Backend & API</button>
-    <button class="skill-tab" onclick="showSkill('ui')">UI Frameworks</button>
-    <button class="skill-tab" onclick="showSkill('cloud')">Cloud & Git</button>
-    <button class="skill-tab" onclick="showSkill('tools')">Tools</button>
-    <button class="skill-tab" onclick="showSkill('db')">Databases</button>
-  </div>
-
-  <div id="skills-display">
-    <div class="experience-card" id="frontend">
-      <h2>Frontend Technologies</h2>
-      <div class="skills-box">
-        <span class="skill-item">HTML</span>
-        <span class="skill-item">CSS</span>
-        <span class="skill-item">JavaScript</span>
-        <span class="skill-item">React.js</span>
-      </div>
-    </div>
-
-    <div class="experience-card hidden" id="backend">
-      <h2>Backend & API</h2>
-      <div class="skills-box">
-        <span class="skill-item">Node.js</span>
-        <span class="skill-item">Express.js</span>
-        <span class="skill-item">RESTful APIs</span>
-      </div>
-    </div>
-
-    <div class="experience-card hidden" id="ui">
-      <h2>UI Frameworks / Styling</h2>
-      <div class="skills-box">
-        <span class="skill-item">Tailwind CSS</span>
-        <span class="skill-item">ShadcnUI</span>
-        <span class="skill-item">Bootstrap</span>
-        <span class="skill-item">SASS</span>
-      </div>
-    </div>
-
-    <div class="experience-card hidden" id="cloud">
-      <h2>Cloud & Version Control</h2>
-      <div class="skills-box">
-        <span class="skill-item">Git</span>
-        <span class="skill-item">GitHub</span>
-        <span class="skill-item">AWS</span>
-        <span class="skill-item">Vercel</span>
-        <span class="skill-item">Render</span>
-      </div>
-    </div>
-
-    <div class="experience-card hidden" id="tools">
-      <h2>Tools & Platforms</h2>
-      <div class="skills-box">
-        <span class="skill-item">VS Code</span>
-        <span class="skill-item">Eclipse</span>
-        <span class="skill-item">Dev C++</span>
-        <span class="skill-item">Postman</span>
-        <span class="skill-item">Chrome DevTools</span>
-      </div>
-    </div>
-
-    <div class="experience-card hidden" id="db">
-      <h2>Databases</h2>
-      <div class="skills-box">
-        <span class="skill-item">MongoDB</span>
-        <span class="skill-item">MySQL</span>
-      </div>
-    </div>
-  </div>
-    </section>
-
-    <!-- Projects section with enhanced professional design -->
-    <section id="projects">
-  <p class="section__text__p1">Browse My Recent</p>
-  <h1 class="title">Projects</h1>
-
-  <div class="project-container-wrapper">
-
-    <!-- Project 1 -->
-    <div class="project-card">
-      <div class="project-img-container">
-        <img src="assests/aimockproject.png" alt="HireVerse" class="project-img">
-        <div class="project-overlay">
-          <p><strong>Description:</strong> An AI-powered platform for mock interviews.</p>
-          <p><strong>Tools:</strong> React.js, Node.js, Express.js, MongoDB, Tailwind CSS</p>
+        <div class="skill-buttons" role="tablist" aria-label="Skill categories">
+          <button class="skill-tab active" onclick="showSkill('frontend')" role="tab" aria-selected="true" aria-controls="frontend">Frontend</button>
+          <button class="skill-tab" onclick="showSkill('backend')" role="tab" aria-selected="false" aria-controls="backend">Backend & API</button>
+          <button class="skill-tab" onclick="showSkill('ui')" role="tab" aria-selected="false" aria-controls="ui">UI Frameworks</button>
+          <button class="skill-tab" onclick="showSkill('cloud')" role="tab" aria-selected="false" aria-controls="cloud">Cloud & Git</button>
+          <button class="skill-tab" onclick="showSkill('tools')" role="tab" aria-selected="false" aria-controls="tools">Tools</button>
+          <button class="skill-tab" onclick="showSkill('db')" role="tab" aria-selected="false" aria-controls="db">Databases</button>
         </div>
-      </div>
-      <h3 class="project-title">HireVerse</h3>
-      <div class="btn-container">
-        <a href="https://github.com/AbhiGen/HireVerse.git" class="project-btn">Github</a>
-        <a href="https://ai-mock-interview-qsvj.onrender.com/" class="project-btn">Live Demo</a>
-      </div>
-    </div>
 
-    <!-- Project 2 -->
-    <div class="project-card">
-      <div class="project-img-container">
-        <img src="assests/mediSphereproject.png" alt="MediSphere" class="project-img">
-        <div class="project-overlay">
-          <p><strong>Description:</strong> Smart hospitalization platform.</p>
-          <p><strong>Tools:</strong> React.js, Node.js, MongoDB, Tailwind CSS, AWS</p>
-        </div>
-      </div>
-      <h3 class="project-title">MediSphere</h3>
-      <div class="btn-container">
-        <a href="https://github.com/AbhiGen/MediSphere-Smart-Hospitalization.git" class="project-btn">Github</a>
-        <a href="https://medisphere-f3b4.onrender.com/" class="project-btn">Live Demo</a>
-      </div>
-    </div>
-
-    <!-- Project 3 -->
-    <div class="project-card">
-      <div class="project-img-container">
-        <img src="assests/jarvisproimg.png" alt="VirtualAssistant" class="project-img">
-        <div class="project-overlay">
-          <p><strong>Description:</strong> A virtual assistant with AI features.</p>
-          <p><strong>Tools:</strong> Python, JavaScript, Node.js, RESTful APIs</p>
-        </div>
-      </div>
-      <h3 class="project-title">VirtualAssistant</h3>
-      <div class="btn-container">
-        <a href="https://github.com/AbhiGen/Jarvis-Virtual-Assistant.git" class="project-btn">Github</a>
-      </div>
-    </div>
-
-    <!-- Project 4 -->
-    <div class="project-card">
-      <div class="project-img-container">
-        <img src="assests/a2zpharmacyproject.png" alt="A2Z Pharmacy" class="project-img">
-        <div class="project-overlay">
-          <p><strong>Description:</strong> Online pharmacy website.</p>
-          <p><strong>Tools:</strong> HTML, CSS, JavaScript, Bootstrap, Node.js</p>
-        </div>
-      </div>
-      <h3 class="project-title">A2Z Pharmacy</h3>
-      <div class="btn-container">
-        <a href="https://github.com/AbhiGen/pharmacy-website.git" class="project-btn">Github</a>
-      </div>
-    </div>
-
-    <!-- Project 5 -->
-    <div class="project-card">
-      <div class="project-img-container">
-        <img src="assests/aimockproject.png" alt="Project 5" class="project-img">
-        <div class="project-overlay">
-          <p><strong>Description:</strong> Placeholder for a professional project.</p>
-          <p><strong>Tools:</strong> React.js, Express.js, MongoDB</p>
-        </div>
-      </div>
-      <h3 class="project-title">Project 5</h3>
-      <div class="btn-container">
-        <a href="#" class="project-btn">Github</a>
-        <a href="#" class="project-btn">Live Demo</a>
-      </div>
-    </div>
-
-    <!-- Project 6 -->
-    <div class="project-card">
-      <div class="project-img-container">
-        <img src="assests/aimockproject.png" alt="Project 6" class="project-img">
-        <div class="project-overlay">
-          <p><strong>Description:</strong> Placeholder for another creative solution.</p>
-          <p><strong>Tools:</strong> MERN stack, Tailwind CSS</p>
-        </div>
-      </div>
-      <h3 class="project-title">Project 6</h3>
-      <div class="btn-container">
-        <a href="#" class="project-btn">Github</a>
-        <a href="#" class="project-btn">Live Demo</a>
-      </div>
-    </div>
-
-  </div>
-
-  <img src="assests/down-arrow.png" alt="Scroll" class="icon arrow" onclick="location.href='#contact'" />
-    </section>
-
-    <!-- Contact section with contact information -->
-    <section id="contact">
-      <p class="section_text_p1">Get In Touch</p>
-      <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
-        <div class="contact-info-container">
-          <img src="./assests/email.png" alt="Email icon" class="icon contact-icon" />
-          <p><a href="mailto:your.email@example.com">abhirambikkina333@gmail.com</a></p>
-        </div>
-        <div class="contact-info-container">
-          <img src="./assests/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
-          <p><a href="https://www.linkedin.com/in/abhiram-bikkina-96a342282">LinkedIn</a></p>
-        </div>
-        <div class="contact-info-container">
-          <img src="./assests/github.png" alt="GitHub icon" class="icon contact-icon" />
-          <p><a href="https://github.com/AbhiGen">GitHub</a></p>
-        </div>
-      </div>
-      <p class="contact-subtitle">I'm open to freelance opportunities, collaborations, or just a chat.</p>
-      <div class="contact-form-container">
-        <form id="contact-form">
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
+        <div id="skills-display">
+          <div class="experience-card" id="frontend" role="tabpanel" aria-labelledby="frontend-tab">
+            <h3>Frontend Technologies</h3>
+            <div class="skills-box">
+              <span class="skill-item">HTML</span>
+              <span class="skill-item">CSS</span>
+              <span class="skill-item">JavaScript</span>
+              <span class="skill-item">React.js</span>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
+
+          <div class="experience-card hidden" id="backend" role="tabpanel" aria-labelledby="backend-tab">
+            <h3>Backend & API</h3>
+            <div class="skills-box">
+              <span class="skill-item">Node.js</span>
+              <span class="skill-item">Express.js</span>
+              <span class="skill-item">RESTful APIs</span>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="subject">Subject</label>
-            <input type="text" id="subject" name="subject" required>
+
+          <div class="experience-card hidden" id="ui" role="tabpanel" aria-labelledby="ui-tab">
+            <h3>UI Frameworks / Styling</h3>
+            <div class="skills-box">
+              <span class="skill-item">Tailwind CSS</span>
+              <span class="skill-item">ShadcnUI</span>
+              <span class="skill-item">Bootstrap</span>
+              <span class="skill-item">SASS</span>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="6" required></textarea>
+
+          <div class="experience-card hidden" id="cloud" role="tabpanel" aria-labelledby="cloud-tab">
+            <h3>Cloud & Version Control</h3>
+            <div class="skills-box">
+              <span class="skill-item">Git</span>
+              <span class="skill-item">GitHub</span>
+              <span class="skill-item">AWS</span>
+              <span class="skill-item">Vercel</span>
+              <span class="skill-item">Render</span>
+            </div>
           </div>
-          <button type="submit" class="btn-submit">Send Message</button>
-          <div id="form-status" class="form-status"></div>
-        </form>
-      </div>
-    </section>
+
+          <div class="experience-card hidden" id="tools" role="tabpanel" aria-labelledby="tools-tab">
+            <h3>Tools & Platforms</h3>
+            <div class="skills-box">
+              <span class="skill-item">VS Code</span>
+              <span class="skill-item">Eclipse</span>
+              <span class="skill-item">Dev C++</span>
+              <span class="skill-item">Postman</span>
+              <span class="skill-item">Chrome DevTools</span>
+            </div>
+          </div>
+
+          <div class="experience-card hidden" id="db" role="tabpanel" aria-labelledby="db-tab">
+            <h3>Databases</h3>
+            <div class="skills-box">
+              <span class="skill-item">MongoDB</span>
+              <span class="skill-item">MySQL</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects section with enhanced professional design -->
+      <section id="projects" aria-labelledby="projects-heading">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h2 id="projects-heading" class="title">Projects</h2>
+
+        <div class="project-container-wrapper">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-img-container">
+              <img src="assests/aimockproject.png" alt="HireVerse project screenshot" class="project-img" loading="lazy">
+              <div class="project-overlay">
+                <p><strong>Description:</strong> An AI-powered platform for mock interviews.</p>
+                <p><strong>Tools:</strong> React.js, Node.js, Express.js, MongoDB, Tailwind CSS</p>
+              </div>
+            </div>
+            <h3 class="project-title">HireVerse</h3>
+            <div class="btn-container">
+              <a href="https://github.com/AbhiGen/HireVerse.git" class="project-btn" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://ai-mock-interview-qsvj.onrender.com/" class="project-btn" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-img-container">
+              <img src="assests/mediSphereproject.png" alt="MediSphere project screenshot" class="project-img" loading="lazy">
+              <div class="project-overlay">
+                <p><strong>Description:</strong> Smart hospitalization platform.</p>
+                <p><strong>Tools:</strong> React.js, Node.js, MongoDB, Tailwind CSS, AWS</p>
+              </div>
+            </div>
+            <h3 class="project-title">MediSphere</h3>
+            <div class="btn-container">
+              <a href="https://github.com/AbhiGen/MediSphere-Smart-Hospitalization.git" class="project-btn" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href="https://medisphere-f3b4.onrender.com/" class="project-btn" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-img-container">
+              <img src="assests/jarvisproimg.png" alt="Virtual Assistant project screenshot" class="project-img" loading="lazy">
+              <div class="project-overlay">
+                <p><strong>Description:</strong> A virtual assistant with AI features.</p>
+                <p><strong>Tools:</strong> Python, JavaScript, Node.js, RESTful APIs</p>
+              </div>
+            </div>
+            <h3 class="project-title">Virtual Assistant</h3>
+            <div class="btn-container">
+              <a href="https://github.com/AbhiGen/Jarvis-Virtual-Assistant.git" class="project-btn" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card">
+            <div class="project-img-container">
+              <img src="assests/a2zpharmacyproject.png" alt="A2Z Pharmacy project screenshot" class="project-img" loading="lazy">
+              <div class="project-overlay">
+                <p><strong>Description:</strong> Online pharmacy website.</p>
+                <p><strong>Tools:</strong> HTML, CSS, JavaScript, Bootstrap, Node.js</p>
+              </div>
+            </div>
+            <h3 class="project-title">A2Z Pharmacy</h3>
+            <div class="btn-container">
+              <a href="https://github.com/AbhiGen/pharmacy-website.git" class="project-btn" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+          </article>
+        </div>
+
+        <button 
+          class="scroll-arrow" 
+          onclick="location.href='#contact'" 
+          aria-label="Scroll to contact section"
+        >
+          <img src="assests/down-arrow.png" alt="Scroll down" class="icon arrow" />
+        </button>
+      </section>
+
+      <!-- Contact section with contact information -->
+      <section id="contact" aria-labelledby="contact-heading">
+        <p class="section_text_p1">Get In Touch</p>
+        <h2 id="contact-heading" class="title">Contact Me</h2>
+        
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img src="./assests/email.png" alt="" class="icon contact-icon" role="presentation" />
+            <p><a href="mailto:abhirambikkina333@gmail.com">abhirambikkina333@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img src="./assests/linkedin.png" alt="" class="icon contact-icon" role="presentation" />
+            <p><a href="https://www.linkedin.com/in/abhiram-bikkina-96a342282" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img src="./assests/github.png" alt="" class="icon contact-icon" role="presentation" />
+            <p><a href="https://github.com/AbhiGen" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+          </div>
+        </div>
+        
+        <p class="contact-subtitle">I'm open to freelance opportunities, collaborations, or just a chat.</p>
+        
+        <div class="contact-form-container">
+          <form id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="name">Name *</label>
+              <input type="text" id="name" name="name" required aria-describedby="name-error">
+              <span id="name-error" class="error-message" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required aria-describedby="email-error">
+              <span id="email-error" class="error-message" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject *</label>
+              <input type="text" id="subject" name="subject" required aria-describedby="subject-error">
+              <span id="subject-error" class="error-message" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" rows="6" required aria-describedby="message-error"></textarea>
+              <span id="message-error" class="error-message" role="alert"></span>
+            </div>
+            <button type="submit" class="btn-submit">Send Message</button>
+            <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+          </form>
+        </div>
+      </section>
+    </main>
 
     <!-- Footer section -->
     <footer id="footer">
       <div class="footer-container">
         <p class="footer-text">© 2025 Abhiram Bikkina. All rights reserved.</p>
+        <button 
+          class="back-to-top" 
+          onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+          aria-label="Back to top"
+        >
+          ↑ Top
+        </button>
+      </div>
     </footer>
 
-    <!-- JavaScript for hamburger menu and theme toggle -->
+    <!-- JavaScript for functionality -->
     <script src="script.js"></script>
   </body>
 </html>
