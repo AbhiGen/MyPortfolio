@@ -55,6 +55,17 @@ nav {
   padding: 0 1rem;
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: top 0.3s;
+}
+
+.nav-links a.active {
+  color: #007bff; /* Or any color you prefer */
+  text-decoration: underline;
 }
 
 body.dark-theme nav {
@@ -435,6 +446,119 @@ body.dark-theme .btn-color-2:hover {
 
 
 
+/* Education Timeline */
+#education {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem 0;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 100%;
+  background-color: #ccc;
+}
+
+.timeline-item {
+  position: relative;
+  width: 50%;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.timeline-item:nth-child(odd) {
+  left: 0;
+  text-align: right;
+}
+
+.timeline-item:nth-child(even) {
+  left: 50%;
+  text-align: left;
+}
+
+.timeline-item.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.timeline-dot {
+  content: '';
+  position: absolute;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(34, 34, 34);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-item:nth-child(odd) .timeline-dot {
+  right: -10px;
+}
+
+.timeline-item:nth-child(even) .timeline-dot {
+  left: -10px;
+}
+
+.timeline-content {
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body.dark-theme .timeline-content {
+  background-color: #2d3748;
+}
+
+/* Honors & Awards Section */
+#honors-awards {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.honors-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.honor-card {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 100%;
+  max-width: 350px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.honor-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+body.dark-theme .honor-card {
+  background-color: #2d3748;
+}
+
+
 /* About Section Styles */
 #about {
   position: relative;
@@ -706,16 +830,13 @@ body.dark-theme .skill-item:hover {
 
 /*projects section*/
 #projects {
-  margin-top: 50px;
   padding: 4rem 2rem;
-  background-color:whitesmoke;
   text-align: center;
 }
 
 .project-container-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
   max-width: 1300px;
   margin: 2rem auto 0;
@@ -723,73 +844,83 @@ body.dark-theme .skill-item:hover {
 
 .project-card {
   background: #fff;
-  border-radius: 2rem;
+  border-radius: 1rem;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-  padding: 1.5rem;
-  width: 100%;
-  max-width: 370px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  transition: transform 0.3s ease;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
 }
-
-/* Image section */
-.project-img-container {
-  position: relative;
-  width: 100%;
-  height: 220px;
-  border-radius: 1.5rem;
-  overflow: hidden;
-}
-
 
 .project-img {
   width: 100%;
   height: 220px;
   object-fit: cover;
-  border-radius: 1.5rem;
-  display: block;
-  transition: opacity 0.3s ease-in-out;
 }
 
-
-.project-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgb(53, 53, 53);
-  color: white;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  padding: 1.2rem;
-  font-size: 0.95rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border-radius: 1.5rem;
-  transition: opacity 0.3s ease-in-out;
-}
-
-.project-card:hover .project-img {
-  opacity: 0;
-}
-
-.project-card:hover .project-overlay {
-  opacity: 1;
+.project-content {
+  padding: 1.5rem;
+  text-align: left;
 }
 
 .project-title {
-  margin: 1.2rem 0 0.8rem;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
-  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.project-description {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project-tools {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 1.5rem;
+}
+
+body.dark-theme .project-card {
+  background-color: #2d3748;
+}
+
+body.dark-theme .project-tools {
+  color: #a0aec0;
+}
+
+/* Stats Section */
+#stats {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.stats-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.stat-card {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+.stat-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+body.dark-theme .stat-card {
+  background-color: #2d3748;
 }
 
 .btn-container {
@@ -1404,4 +1535,23 @@ body.dark-theme .back-to-top:hover {
   }
 }
 
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgb(43, 43, 43);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#back-to-top-btn:hover {
+  background-color: rgb(103, 103, 103);
+}
 

@@ -1,81 +1,29 @@
 document.addEventListener('DOMContentLoaded', () => {
   const themeToggle = document.getElementById('theme-toggle');
   const body = document.body;
-  const socialsContainer = document.getElementById('socials-container');
-  // Save original icons for restoring in light mode
 
-  
-  const originalIcons = {
-    linkedin: {
-      src: 'assests/linkedin.png',
-      alt: 'LinkedIn profile',
-      url: 'https://www.linkedin.com/in/abhiram-bikkina-96a342282',
-    },
-    github: {
-      src: 'assests/github.png',
-      alt: 'Github profile',
-      url: 'https://github.com/AbhiGen',
-    },
-  };
-
-  function switchToButtons() {
-    socialsContainer.innerHTML = '';
-
-    const linkedinBtn = document.createElement('button');
-    linkedinBtn.textContent = 'LinkedIn';
-    linkedinBtn.className = 'btn btn-color-2';
-    linkedinBtn.onclick = () => window.open(originalIcons.linkedin.url, '_blank');
-
-    const githubBtn = document.createElement('button');
-    githubBtn.textContent = 'GitHub';
-    githubBtn.className = 'btn btn-color-2';
-    githubBtn.onclick = () => window.open(originalIcons.github.url, '_blank');
-
-    socialsContainer.appendChild(linkedinBtn);
-    socialsContainer.appendChild(githubBtn);
-  }
-
-  function switchToIcons() {
-    socialsContainer.innerHTML = '';
-
-    const linkedinImg = document.createElement('img');
-    linkedinImg.src = originalIcons.linkedin.src;
-    linkedinImg.alt = originalIcons.linkedin.alt;
-    linkedinImg.className = 'icon';
-    linkedinImg.onclick = () => window.open(originalIcons.linkedin.url, '_blank');
-
-    const githubImg = document.createElement('img');
-    githubImg.src = originalIcons.github.src;
-    githubImg.alt = originalIcons.github.alt;
-    githubImg.className = 'icon';
-    githubImg.onclick = () => window.open(originalIcons.github.url, '_blank');
-
-    socialsContainer.appendChild(linkedinImg);
-    socialsContainer.appendChild(githubImg);
-  }
-
-  function updateTheme(theme) {
+  function applyTheme(theme) {
     if (theme === 'dark') {
       body.classList.add('dark-theme');
-      themeToggle.src = 'assests/sun.png'; // icon when in dark mode
-      switchToButtons();
+      themeToggle.src = 'assests/sun.png';
     } else {
       body.classList.remove('dark-theme');
-      themeToggle.src = 'assests/moon.png'; // icon when in light mode
-      switchToIcons();
+      themeToggle.src = 'assests/moon.png';
     }
-    localStorage.setItem('theme', theme);
   }
 
-  // Load saved theme
-  const savedTheme = localStorage.getItem('theme') || 'light';
-  updateTheme(savedTheme);
+  function toggleTheme() {
+    const currentTheme = localStorage.getItem('theme') || 'light';
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    localStorage.setItem('theme', newTheme);
+    applyTheme(newTheme);
+  }
 
-  // Toggle theme
-  themeToggle.addEventListener('click', () => {
-    const newTheme = body.classList.contains('dark-theme') ? 'light' : 'dark';
-    updateTheme(newTheme);
-  });
+  themeToggle.addEventListener('click', toggleTheme);
+
+  // Apply saved theme on initial load
+  const savedTheme = localStorage.getItem('theme') || 'light';
+  applyTheme(savedTheme);
 });
 
 function showSkill(id, button) {
@@ -107,3 +55,62 @@ function showSkill(skillId) {
   tabs.forEach(tab => tab.classList.remove('active'));
   document.querySelector(`[onclick="showSkill('${skillId}')"]`).classList.add('active');
 }
+
+// Back to top button
+const backToTopBtn = document.getElementById('back-to-top-btn');
+
+window.onscroll = function() {
+  scrollFunction();
+  scrollSpy();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    backToTopBtn.style.display = 'block';
+  } else {
+    backToTopBtn.style.display = 'none';
+  }
+}
+
+backToTopBtn.addEventListener('click', () => {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+});
+
+// Scrollspy
+const sections = document.querySelectorAll('section');
+const navLinks = document.querySelectorAll('.nav-links a');
+
+function scrollSpy() {
+  let current = '';
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop;
+    if (pageYOffset >= sectionTop - 60) {
+      current = section.getAttribute('id');
+    }
+  });
+
+  navLinks.forEach(a => {
+    a.classList.remove('active');
+    if (a.getAttribute('href').includes(current)) {
+      a.classList.add('active');
+    }
+  });
+}
+
+// Education Timeline Animation
+const timelineItems = document.querySelectorAll('.timeline-item');
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('show');
+    }
+  });
+}, {
+  threshold: 0.5
+});
+
+timelineItems.forEach(item => {
+  observer.observe(item);
+});
