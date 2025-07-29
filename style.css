@@ -1554,4 +1554,34 @@ body.dark-theme .back-to-top:hover {
 #back-to-top-btn:hover {
   background-color: rgb(103, 103, 103);
 }
+/* Base style to match 'Contact Info' and 'Download CV' */
+.social-btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif; /* Ensure this matches your existing buttons */
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: rgb(53, 53, 53); /* Uniform color */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+}
+
+/* Hover effect */
+.social-btn:hover {
+  background-color: rgb(35, 35, 35);
+  transform: scale(1.05);
+}
+
+/* Dark theme support - invert text on light background if needed */
+body.dark-theme .social-btn {
+  background-color: white;
+  color: rgb(53, 53, 53);
+}
+
+body.dark-theme .social-btn:hover {
+  background-color: #e5e5e5;
+}
 

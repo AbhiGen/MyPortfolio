@@ -47,39 +47,33 @@
       </div>
     </nav>
 
-    <!-- Profile section with image and introduction -->
-    <section id="profile">
-      <div class="section__pic-container">
-        <img src="assests/profilepic3.png" alt="Abhiram Bikkina profile picture" />
-      </div>
-      <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">Abhiram Bikkina</h1>
-        <p class="section__text__p2">Full Stack Developer</p>
-        <div class="btn-container">
-          <button class="btn btn-color-2" onclick="window.open('assests/mark2-hackerresume.pdf')">
-            Download CV
-          </button>
-          <button class="btn btn-color-1" onclick="location.href='#contact'">
-            Contact Info
-          </button>
-        </div>
-        <div id="socials-container" style="margin-top: 1.5rem;">
-          <img
-            src="assests/linkedin.png"
-            alt="LinkedIn profile"
-            class="icon"
-            onclick="window.open('https://www.linkedin.com/in/abhiram-bikkina-96a342282', '_blank')"
-          />
-          <img
-            src="assests/github.png"
-            alt="Github profile"
-            class="icon"
-            onclick="window.open('https://github.com/AbhiGen', '_blank')"
-          />
-        </div>
-      </div>
-    </section>
+   <!-- Profile section with image and introduction -->
+<section id="profile">
+  <div class="section__pic-container">
+    <img src="assests/profilepic3.png" alt="Abhiram Bikkina profile picture" />
+  </div>
+  <div class="section__text">
+    <p class="section__text__p1">Hello, I'm</p>
+    <h1 class="title">Abhiram Bikkina</h1>
+    <p class="section__text__p2">Full Stack Developer</p>
+
+    <div class="btn-container">
+      <button class="btn btn-color-2" onclick="window.open('assests/mark2-hackerresume.pdf')">
+        Download CV
+      </button>
+      <button class="btn btn-color-1" onclick="location.href='#contact'">
+        Contact Info
+      </button>
+    </div>
+
+    <!-- Socials buttons instead of icons -->
+    <div id="socials-container" style="margin-top: 1.5rem; display: flex; gap: 1rem;">
+      <button class="social-btn linkedin" onclick="window.open('https://www.linkedin.com/in/abhiram-bikkina-96a342282', '_blank')">LinkedIn</button>
+      <button class="social-btn github" onclick="window.open('https://github.com/AbhiGen', '_blank')">GitHub</button>
+    </div>
+  </div>
+</section>
+
 
     <!-- About section with professional design -->
     <section id="about">
