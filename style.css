@@ -501,7 +501,7 @@ body.dark-theme .btn-color-2:hover {
   top: 20px;
   width: 20px;
   height: 20px;
-  background-color: #007bff;
+  background-color: rgb(53, 53, 53);
   border-radius: 50%;
   z-index: 1;
 }
@@ -832,6 +832,11 @@ body.dark-theme .skill-item:hover {
 #projects {
   padding: 4rem 2rem;
   text-align: center;
+  background-color: #f9f9f9;
+}
+
+body.dark-theme #projects {
+  background-color: #1a202c;
 }
 
 .project-container-wrapper {
@@ -848,6 +853,9 @@ body.dark-theme .skill-item:hover {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeIn 0.5s ease forwards;
 }
 
 .project-card:hover {
@@ -866,9 +874,16 @@ body.dark-theme .skill-item:hover {
   text-align: left;
 }
 
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .project-title {
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 0.5rem;
 }
 
@@ -1543,15 +1558,47 @@ body.dark-theme .back-to-top:hover {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #007bff;
+  background-color: rgb(53, 53, 53);
   color: white;
   cursor: pointer;
-  padding: 15px;
-  border-radius: 10px;
-  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 24px;
+  transition: opacity 0.3s, transform 0.3s;
+  opacity: 0;
+}
+
+#back-to-top-btn.show {
+  opacity: 1;
+  display: block;
 }
 
 #back-to-top-btn:hover {
-  background-color: #0056b3;
+  background-color: #000;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger-menu .menu-links {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    transition: left 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1001;
+  }
+
+  .hamburger-menu .menu-links.open {
+    left: 0;
+  }
+
+  .hamburger-icon {
+    z-index: 1002;
+  }
 }
 

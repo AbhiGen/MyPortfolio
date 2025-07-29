@@ -1,14 +1,28 @@
 document.addEventListener('DOMContentLoaded', () => {
   const themeToggle = document.getElementById('theme-toggle');
   const body = document.body;
+  const socialsContainer = document.getElementById('socials-container');
+
+  const originalIcons = {
+    linkedin: 'assests/linkedin.png',
+    github: 'assests/github.png',
+  };
 
   function applyTheme(theme) {
     if (theme === 'dark') {
       body.classList.add('dark-theme');
       themeToggle.src = 'assests/sun.png';
+      socialsContainer.innerHTML = `
+        <button class="btn btn-color-2" onclick="window.open('https://www.linkedin.com/in/abhiram-bikkina-96a342282', '_blank')">LinkedIn</button>
+        <button class="btn btn-color-2" onclick="window.open('https://github.com/AbhiGen', '_blank')">GitHub</button>
+      `;
     } else {
       body.classList.remove('dark-theme');
       themeToggle.src = 'assests/moon.png';
+      socialsContainer.innerHTML = `
+        <img src="${originalIcons.linkedin}" alt="LinkedIn profile" class="icon" onclick="window.open('https://www.linkedin.com/in/abhiram-bikkina-96a342282', '_blank')" />
+        <img src="${originalIcons.github}" alt="Github profile" class="icon" onclick="window.open('https://github.com/AbhiGen', '_blank')" />
+      `;
     }
   }
 
@@ -66,16 +80,33 @@ window.onscroll = function() {
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    backToTopBtn.style.display = 'block';
+    backToTopBtn.classList.add('show');
   } else {
-    backToTopBtn.style.display = 'none';
+    backToTopBtn.classList.remove('show');
   }
 }
 
-backToTopBtn.addEventListener('click', () => {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+backToTopBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
 });
+
+function toggleMenu() {
+  const menu = document.querySelector('.menu-links');
+  const icon = document.querySelector('.hamburger-icon');
+  menu.classList.toggle('open');
+  icon.classList.toggle('open');
+}
+
+function closeMenu() {
+  const menu = document.querySelector('.menu-links');
+  const icon = document.querySelector('.hamburger-icon');
+  menu.classList.remove('open');
+  icon.classList.remove('open');
+}
 
 // Scrollspy
 const sections = document.querySelectorAll('section');
