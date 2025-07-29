@@ -1,54 +1,55 @@
 # 🌐 Personal Portfolio Website
 
-Welcome to my personal portfolio! This is a responsive, modern website built using **HTML**, **CSS**, and **JavaScript** to showcase my skills, projects, and contact information. The goal of this portfolio is to reflect my development capabilities and provide an easy way for others to connect with me.
+This is a revamped version of my personal portfolio, built with a focus on modern UI/UX, interactivity, and responsiveness. It showcases my skills, projects, education, and coding stats.
 
 ---
 
-## 📸 Live Preview
+## 🚀 Live Preview
 
-👉 [View Live Site](https://my-portfolio-coral-five-43.vercel.app/)  
+To preview the website, simply open the `index.html` file in your web browser. For the best experience, it's recommended to serve the files using a local server. If you have Python installed, you can run the following command in the root directory of the project:
+
+```bash
+python -m http.server
+```
+
+Then, open your browser and navigate to `http://localhost:8000`.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **HTML5** – for semantic content structure  
-- **CSS3** – custom styles, flexbox, media queries for responsiveness  
-- **JavaScript** – interactivity and dynamic content  
-- *(Optional)* Tailwind CSS or Bootstrap – for layout utilities and design consistency
+- **HTML5**: For the structure and content of the website.
+- **CSS3**: For styling, animations, and responsive design.
+- **JavaScript**: For interactivity, theme switching, and animations.
+- **Intersection Observer API**: For triggering animations on scroll.
+- **GitHub Readme Stats**: To display GitHub statistics.
+- **LeetCode Card**: To display LeetCode statistics.
 
 ---
 
-## 📁 Features
+## ✨ Features
 
-- ✅ Fully responsive design (mobile-friendly)
-- 🎨 Clean, modern UI/UX
-- 🧩 Interactive navigation menu
-- 🧑‍💼 About Me section with skill highlights
-- 💼 Projects section with previews and links
-- 📞 Contact form (or contact info)
-- 🌙 Optional dark mode / animations
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices.
+- **Dark/Light Mode**: Toggle between dark and light themes with preference saved in `localStorage`.
+- **Sticky Navbar**: A navigation bar that sticks to the top of the page on scroll.
+- **Scrollspy**: Highlights the active section in the navigation bar as you scroll.
+- **Back to Top Button**: A button that appears on scroll to quickly navigate to the top of the page.
+- **SEO Optimized**: Includes meta tags for better search engine visibility.
+- **Education Timeline**: A vertical timeline with scroll animations to showcase my academic journey.
+- **Honors & Awards**: A section to display my achievements.
+- **Modern Projects Section**: Redesigned project cards with hover effects.
+- **GitHub & LeetCode Integration**: Displays my coding stats from GitHub and LeetCode.
 
 ---
 
-## 🚀 Getting Started
-
-### Clone the repository
-
-git clone https://github.com/yourusername/portfolio.git
-cd portfolio
+## 📁 File Structure
 
 ```
-📦 Folder Structure
-bash
-Copy
-Edit
 portfolio/
 │
-├── index.html          # Main landing page
-├── style.css           # Custom CSS styling
+├── index.html          # Main HTML file
+├── style.css           # CSS for styling
 ├── script.js           # JavaScript for interactivity
-├── assets/             # Images, icons, etc.
-└── README.md           # You're here!
-
+├── assests/            # Images, icons, and resume
+└── README.md           # This file
 ```
