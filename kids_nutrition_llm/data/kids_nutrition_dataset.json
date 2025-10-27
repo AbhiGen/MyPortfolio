@@ -1,0 +1,3002 @@
+[
+  {
+    "question": "What should a 8 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, chicken is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is orange healthy for my 8 year old child?",
+    "answer": "Yes, orange is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, chicken is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is orange healthy for my 3 year old child?",
+    "answer": "Yes, orange is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, oats is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for snack?",
+    "answer": "For snack, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, banana is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is oats healthy for my 3 year old child?",
+    "answer": "Yes, oats is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is carrots healthy for my 8 year old child?",
+    "answer": "Yes, carrots is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for snack?",
+    "answer": "For snack, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for breakfast?",
+    "answer": "For breakfast, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, rice is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, apple is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is eggs healthy for my 8 year old child?",
+    "answer": "Yes, eggs is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is eggs healthy for my 5 year old child?",
+    "answer": "Yes, eggs is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is eggs healthy for my 8 year old child?",
+    "answer": "Yes, eggs is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, oats is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is apple healthy for my 8 year old child?",
+    "answer": "Yes, apple is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for snack?",
+    "answer": "For snack, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is yogurt healthy for my 5 year old child?",
+    "answer": "Yes, yogurt is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, apple is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, apple is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, oats is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is carrots healthy for my 8 year old child?",
+    "answer": "Yes, carrots is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, orange is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is banana healthy for my 8 year old child?",
+    "answer": "Yes, banana is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, apple is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is broccoli healthy for my 3 year old child?",
+    "answer": "Yes, broccoli is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for snack?",
+    "answer": "For snack, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is spinach healthy for my 5 year old child?",
+    "answer": "Yes, spinach is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is orange healthy for my 3 year old child?",
+    "answer": "Yes, orange is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, oats is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, banana is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is yogurt healthy for my 5 year old child?",
+    "answer": "Yes, yogurt is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, oats is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is apple healthy for my 5 year old child?",
+    "answer": "Yes, apple is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, apple is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for breakfast?",
+    "answer": "For breakfast, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, chicken is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is strawberries healthy for my 3 year old child?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for snack?",
+    "answer": "For snack, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is broccoli healthy for my 3 year old child?",
+    "answer": "Yes, broccoli is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, apple is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is spinach healthy for my 8 year old child?",
+    "answer": "Yes, spinach is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, eggs is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, yogurt is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is strawberries healthy for my 5 year old child?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, eggs is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for breakfast?",
+    "answer": "For breakfast, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is eggs healthy for my 8 year old child?",
+    "answer": "Yes, eggs is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is broccoli healthy for my 5 year old child?",
+    "answer": "Yes, broccoli is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is apple healthy for my 3 year old child?",
+    "answer": "Yes, apple is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, apple is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, carrots is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is yogurt healthy for my 5 year old child?",
+    "answer": "Yes, yogurt is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is spinach healthy for my 5 year old child?",
+    "answer": "Yes, spinach is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, eggs is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, spinach is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for breakfast?",
+    "answer": "For breakfast, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for breakfast?",
+    "answer": "For breakfast, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, rice is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is strawberries healthy for my 3 year old child?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is banana healthy for my 5 year old child?",
+    "answer": "Yes, banana is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is carrots healthy for my 5 year old child?",
+    "answer": "Yes, carrots is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for snack?",
+    "answer": "For snack, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is chicken healthy for my 3 year old child?",
+    "answer": "Yes, chicken is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, rice is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, banana is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, oats is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, oats is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is apple healthy for my 5 year old child?",
+    "answer": "Yes, apple is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for breakfast?",
+    "answer": "For breakfast, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is chicken healthy for my 3 year old child?",
+    "answer": "Yes, chicken is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for snack?",
+    "answer": "For snack, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is apple healthy for my 5 year old child?",
+    "answer": "Yes, apple is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, orange is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for snack?",
+    "answer": "For snack, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for breakfast?",
+    "answer": "For breakfast, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is eggs healthy for my 5 year old child?",
+    "answer": "Yes, eggs is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is carrots healthy for my 3 year old child?",
+    "answer": "Yes, carrots is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, yogurt is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, broccoli is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, banana is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for breakfast?",
+    "answer": "For breakfast, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, rice is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for snack?",
+    "answer": "For snack, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for breakfast?",
+    "answer": "For breakfast, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is orange healthy for my 5 year old child?",
+    "answer": "Yes, orange is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, spinach is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is apple healthy for my 8 year old child?",
+    "answer": "Yes, apple is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is chicken healthy for my 5 year old child?",
+    "answer": "Yes, chicken is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is eggs healthy for my 8 year old child?",
+    "answer": "Yes, eggs is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is banana healthy for my 5 year old child?",
+    "answer": "Yes, banana is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is broccoli healthy for my 3 year old child?",
+    "answer": "Yes, broccoli is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is banana healthy for my 5 year old child?",
+    "answer": "Yes, banana is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for breakfast?",
+    "answer": "For breakfast, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is spinach healthy for my 3 year old child?",
+    "answer": "Yes, spinach is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, chicken is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, carrots is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, oats is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is orange healthy for my 5 year old child?",
+    "answer": "Yes, orange is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is broccoli healthy for my 8 year old child?",
+    "answer": "Yes, broccoli is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, rice is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for snack?",
+    "answer": "For snack, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, oats is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, apple is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, eggs is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is chicken healthy for my 3 year old child?",
+    "answer": "Yes, chicken is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is strawberries healthy for my 5 year old child?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is broccoli healthy for my 8 year old child?",
+    "answer": "Yes, broccoli is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for snack?",
+    "answer": "For snack, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is rice healthy for my 8 year old child?",
+    "answer": "Yes, rice is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, chicken is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, banana is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, eggs is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is rice healthy for my 5 year old child?",
+    "answer": "Yes, rice is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is oats healthy for my 3 year old child?",
+    "answer": "Yes, oats is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is strawberries healthy for my 5 year old child?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is oats healthy for my 8 year old child?",
+    "answer": "Yes, oats is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, apple is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, yogurt is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is yogurt healthy for my 3 year old child?",
+    "answer": "Yes, yogurt is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, eggs is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for snack?",
+    "answer": "For snack, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, orange is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is rice healthy for my 3 year old child?",
+    "answer": "Yes, rice is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is yogurt healthy for my 3 year old child?",
+    "answer": "Yes, yogurt is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, banana is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for snack?",
+    "answer": "For snack, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, oats is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, carrots is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, spinach is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, yogurt is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for snack?",
+    "answer": "For snack, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, orange is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is banana healthy for my 3 year old child?",
+    "answer": "Yes, banana is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is oats healthy for my 5 year old child?",
+    "answer": "Yes, oats is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, banana is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is apple healthy for my 8 year old child?",
+    "answer": "Yes, apple is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is broccoli healthy for my 3 year old child?",
+    "answer": "Yes, broccoli is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is eggs healthy for my 8 year old child?",
+    "answer": "Yes, eggs is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is eggs healthy for my 8 year old child?",
+    "answer": "Yes, eggs is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, chicken is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, yogurt is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, broccoli is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is oats healthy for my 3 year old child?",
+    "answer": "Yes, oats is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, yogurt is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for breakfast?",
+    "answer": "For breakfast, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is carrots healthy for my 3 year old child?",
+    "answer": "Yes, carrots is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is apple healthy for my 5 year old child?",
+    "answer": "Yes, apple is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, banana is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for snack?",
+    "answer": "For snack, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for snack?",
+    "answer": "For snack, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is banana healthy for my 5 year old child?",
+    "answer": "Yes, banana is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, banana is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is eggs healthy for my 8 year old child?",
+    "answer": "Yes, eggs is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for snack?",
+    "answer": "For snack, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is rice healthy for my 8 year old child?",
+    "answer": "Yes, rice is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for breakfast?",
+    "answer": "For breakfast, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for snack?",
+    "answer": "For snack, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is orange healthy for my 8 year old child?",
+    "answer": "Yes, orange is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is apple healthy for my 8 year old child?",
+    "answer": "Yes, apple is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, carrots is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for snack?",
+    "answer": "For snack, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, chicken is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is spinach healthy for my 8 year old child?",
+    "answer": "Yes, spinach is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is rice healthy for my 5 year old child?",
+    "answer": "Yes, rice is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, oats is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is chicken healthy for my 3 year old child?",
+    "answer": "Yes, chicken is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is yogurt healthy for my 8 year old child?",
+    "answer": "Yes, yogurt is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, broccoli is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for snack?",
+    "answer": "For snack, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, orange is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is oats healthy for my 5 year old child?",
+    "answer": "Yes, oats is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is yogurt healthy for my 5 year old child?",
+    "answer": "Yes, yogurt is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is strawberries healthy for my 3 year old child?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for snack?",
+    "answer": "For snack, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, carrots is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for snack?",
+    "answer": "For snack, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, spinach is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, oats is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for breakfast?",
+    "answer": "For breakfast, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, orange is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is banana healthy for my 8 year old child?",
+    "answer": "Yes, banana is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, broccoli is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, carrots is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is strawberries healthy for my 8 year old child?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is orange healthy for my 8 year old child?",
+    "answer": "Yes, orange is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is orange healthy for my 5 year old child?",
+    "answer": "Yes, orange is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for breakfast?",
+    "answer": "For breakfast, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, chicken is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is apple healthy for my 8 year old child?",
+    "answer": "Yes, apple is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is yogurt healthy for my 5 year old child?",
+    "answer": "Yes, yogurt is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, broccoli is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, yogurt is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is oats healthy for my 3 year old child?",
+    "answer": "Yes, oats is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, oats is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is broccoli healthy for my 3 year old child?",
+    "answer": "Yes, broccoli is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for breakfast?",
+    "answer": "For breakfast, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is strawberries healthy for my 8 year old child?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, oats is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, spinach is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is strawberries healthy for my 5 year old child?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for breakfast?",
+    "answer": "For breakfast, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is broccoli healthy for my 8 year old child?",
+    "answer": "Yes, broccoli is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, rice is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is broccoli healthy for my 3 year old child?",
+    "answer": "Yes, broccoli is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, yogurt is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, banana is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is yogurt healthy for my 3 year old child?",
+    "answer": "Yes, yogurt is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is rice healthy for my 8 year old child?",
+    "answer": "Yes, rice is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is rice healthy for my 8 year old child?",
+    "answer": "Yes, rice is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, broccoli is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is spinach healthy for my 8 year old child?",
+    "answer": "Yes, spinach is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is carrots healthy for my 5 year old child?",
+    "answer": "Yes, carrots is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is strawberries healthy for my 5 year old child?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, carrots is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is orange healthy for my 3 year old child?",
+    "answer": "Yes, orange is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, carrots is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is orange healthy for my 8 year old child?",
+    "answer": "Yes, orange is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, eggs is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, apple is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is carrots healthy for my 3 year old child?",
+    "answer": "Yes, carrots is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, broccoli is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, orange is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is orange healthy for my 5 year old child?",
+    "answer": "Yes, orange is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is chicken healthy for my 5 year old child?",
+    "answer": "Yes, chicken is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is yogurt healthy for my 8 year old child?",
+    "answer": "Yes, yogurt is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is spinach healthy for my 8 year old child?",
+    "answer": "Yes, spinach is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is strawberries healthy for my 5 year old child?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, spinach is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, broccoli is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, carrots is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, banana is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for breakfast?",
+    "answer": "For breakfast, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, chicken is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is broccoli healthy for my 5 year old child?",
+    "answer": "Yes, broccoli is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for snack?",
+    "answer": "For snack, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is rice healthy for my 5 year old child?",
+    "answer": "Yes, rice is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for breakfast?",
+    "answer": "For breakfast, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, chicken is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is apple healthy for my 3 year old child?",
+    "answer": "Yes, apple is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, orange is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is eggs healthy for my 5 year old child?",
+    "answer": "Yes, eggs is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is strawberries healthy for my 5 year old child?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, broccoli is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, orange is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, oats is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is broccoli healthy for my 3 year old child?",
+    "answer": "Yes, broccoli is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is oats healthy for my 8 year old child?",
+    "answer": "Yes, oats is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is eggs healthy for my 3 year old child?",
+    "answer": "Yes, eggs is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is broccoli healthy for my 5 year old child?",
+    "answer": "Yes, broccoli is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is chicken healthy for my 5 year old child?",
+    "answer": "Yes, chicken is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is oats healthy for my 8 year old child?",
+    "answer": "Yes, oats is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, orange is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is banana healthy for my 5 year old child?",
+    "answer": "Yes, banana is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for snack?",
+    "answer": "For snack, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, eggs is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is eggs healthy for my 3 year old child?",
+    "answer": "Yes, eggs is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, apple is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, orange is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is carrots healthy for my 5 year old child?",
+    "answer": "Yes, carrots is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is chicken healthy for my 8 year old child?",
+    "answer": "Yes, chicken is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, spinach is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is banana healthy for my 8 year old child?",
+    "answer": "Yes, banana is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, carrots is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, rice is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is strawberries healthy for my 5 year old child?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, yogurt is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is rice healthy for my 8 year old child?",
+    "answer": "Yes, rice is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is spinach healthy for my 3 year old child?",
+    "answer": "Yes, spinach is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is chicken healthy for my 3 year old child?",
+    "answer": "Yes, chicken is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, eggs is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is spinach healthy for my 8 year old child?",
+    "answer": "Yes, spinach is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, banana is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 5 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for lunch?",
+    "answer": "For lunch, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is broccoli healthy for my 3 year old child?",
+    "answer": "Yes, broccoli is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, chicken is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is yogurt healthy for my 5 year old child?",
+    "answer": "Yes, yogurt is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for breakfast?",
+    "answer": "For breakfast, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 8 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is oats healthy for my 8 year old child?",
+    "answer": "Yes, oats is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 5 year old?",
+    "answer": "Yes, strawberries is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, apple is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 8 year old eat for dinner?",
+    "answer": "For dinner, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is spinach healthy for my 8 year old child?",
+    "answer": "Yes, spinach is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 3 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, banana is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is banana healthy for my 3 year old child?",
+    "answer": "Yes, banana is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 8 year old?",
+    "answer": "Yes, oats is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What are some healthy snacks for a 3 year old?",
+    "answer": "Yes, yogurt is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "preschool",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "Is spinach healthy for my 8 year old child?",
+    "answer": "Yes, spinach is very healthy for children! It provides important nutrients for growth and development.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "How can I get my picky 5 year old to eat vegetables?",
+    "answer": "Try making vegetables fun with dips, colorful presentations, or involving kids in cooking!",
+    "age_group": "toddler",
+    "category": "nutrition_guidance"
+  },
+  {
+    "question": "What should a 3 year old eat for breakfast?",
+    "answer": "For breakfast, I recommend a balanced meal with fruits, vegetables, protein, and grains. For example: oats with banana and yogurt.",
+    "age_group": "school_age",
+    "category": "nutrition_guidance"
+  }
+]
