@@ -33,7 +33,7 @@ export default function Contact({ data }) {
     }
 
     const btn = e.currentTarget.querySelector('.btn-submit');
-    const originalText = 'Send Message ✨';
+    const originalText = 'Send Message';
     
     btn.innerHTML = 'Sending... ⏳';
     btn.style.background = 'var(--text-muted)';
