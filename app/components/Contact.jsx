@@ -35,7 +35,7 @@ export default function Contact({ data }) {
     const btn = e.currentTarget.querySelector('.btn-submit');
     const originalText = 'Send Message';
     
-    btn.innerHTML = 'Sending... ⏳';
+    btn.innerHTML = 'Sending... ';
     btn.style.background = 'var(--text-muted)';
     
     // Replace these with actual IDs from emailjs.com
@@ -46,7 +46,7 @@ export default function Contact({ data }) {
     if (SERVICE_ID === 'YOUR_SERVICE_ID') {
       setTimeout(() => {
         toast.info('Simulated success! Set up actual EmailJS keys to send real emails.');
-        btn.innerHTML = 'Message Sent! 🚀';
+        btn.innerHTML = 'Message Sent! ';
         btn.style.background = 'var(--accent-teal)';
         e.target.reset();
         
@@ -127,7 +127,7 @@ export default function Contact({ data }) {
             <label htmlFor="message" className="sr-only" aria-hidden="true" style={{display:'none'}}>Message</label>
             <textarea id="message" name="message" rows="5" placeholder="Your Message" required aria-required="true"></textarea>
           </div>
-          <button type="submit" className="btn-submit" aria-label="Send Message">Send Message ✨</button>
+          <button type="submit" className="btn-submit" aria-label="Send Message">Send Message</button>
         </form>
       </div>
     </section>

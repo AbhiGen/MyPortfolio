@@ -34,21 +34,27 @@ export default function CustomCursor() {
 
     document.addEventListener('mousemove', handleMouseMove);
 
-    const handleMouseEnter = () => ring?.classList.add('hover');
-    const handleMouseLeave = () => ring?.classList.remove('hover');
+    const handleMouseOver = (e) => {
+      const target = e.target.closest('a, button, input, textarea, [role="button"], .social-icon, .hamburger-icon, .chatbot-toggle, .chat-chip');
+      if (target) {
+        ring?.classList.add('hover');
+      }
+    };
 
-    const interactiveElements = document.querySelectorAll('a, button, .social-icon, .hamburger-icon');
-    interactiveElements.forEach(el => {
-      el.addEventListener('mouseenter', handleMouseEnter);
-      el.addEventListener('mouseleave', handleMouseLeave);
-    });
+    const handleMouseOut = (e) => {
+      const target = e.target.closest('a, button, input, textarea, [role="button"], .social-icon, .hamburger-icon, .chatbot-toggle, .chat-chip');
+      if (target) {
+        ring?.classList.remove('hover');
+      }
+    };
+
+    document.addEventListener('mouseover', handleMouseOver);
+    document.addEventListener('mouseout', handleMouseOut);
 
     return () => {
       document.removeEventListener('mousemove', handleMouseMove);
-      interactiveElements.forEach(el => {
-        el.removeEventListener('mouseenter', handleMouseEnter);
-        el.removeEventListener('mouseleave', handleMouseLeave);
-      });
+      document.removeEventListener('mouseover', handleMouseOver);
+      document.removeEventListener('mouseout', handleMouseOut);
     };
   }, []);
 

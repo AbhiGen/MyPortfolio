@@ -19,6 +19,7 @@ import Resume from './components/Resume';
 import Stats from './components/Stats';
 import Contact from './components/Contact';
 import CustomCursor from './components/CustomCursor';
+import Chatbot from './components/Chatbot';
 
 /**
  * Main Portfolio Page component.
@@ -102,6 +103,7 @@ export default function Home() {
     <>
       <ToastContainer theme={theme === 'dark' ? 'dark' : 'light'} position="bottom-right" />
       <CustomCursor />
+      <Chatbot />
       <div className="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
       
       <div className="bg-blobs" aria-hidden="true">
