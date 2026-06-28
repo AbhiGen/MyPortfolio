@@ -1261,6 +1261,7 @@ footer {
   border-radius: 14px;
   font-size: 0.9rem;
   line-height: 1.45;
+  white-space: pre-line;
 }
 
 .chatbot-message-row.assistant .chatbot-message-bubble {
