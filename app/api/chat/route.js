@@ -37,14 +37,14 @@ Here is the authentic background information about Abhiram Bikkina:
    - **GitHub**: https://github.com/AbhiGen/HireVerse.git
    - **Live Link**: https://ai-mock-interview-qsvj.onrender.com/
    
-2. **NutriKid – AI Pediatric Nutrition Platform**
+2. **NutriKids – AI Pediatric Nutrition Platform**
    - **Description**: Developed end-to-end AI pipelines for RAG-based nutrition analysis using ICMR/NIN data for child growth tracking, meal logging, and real-time feedback with safety validation.
    - **Tech Stack**: RAG Architecture, LLMs, Full-Stack, Safety Validation
    - **GitHub**: https://github.com/AbhiGen
    
-3. **Bengaluru House Price Prediction**
-   - **Description**: Built an ML pipeline using Linear Regression and Random Forest. Engineered features like city center proximity and generated insights using heatmaps and SHAP explainability graphs.
-   - **Tech Stack**: Python, Scikit-learn, Streamlit, SHAP
+3. **Reliable Distributed Key-Value Store**
+   - **Description**: Designed a fault-tolerant distributed key-value store using replication and quorum-based consistency to ensure strong consistency. Implemented heartbeat-based failure detection, automatic node recovery, and scalable multi-node architecture using concurrency and socket communication.
+   - **Tech Stack**: Replication, Quorum Consistency, Concurrency, Sockets
    - **GitHub**: https://github.com/AbhiGen
    
 4. **Anti-Theft Bag Security System**
@@ -56,6 +56,13 @@ Here is the authentic background information about Abhiram Bikkina:
 - **Research Presentation (2025)**: Presented research paper: “Novel LLM-Based Framework for Kids Nutrition Recommendations” at I-SMAC 2025, Nepal.
 - **1st Runner-Up (2025)**: IIIT Sri City Agentica Hackathon. Ranked 2nd out of 130 teams in a highly competitive AI-focused hackathon.
 - **1st Prize (2024)**: Anokha Techfest Maze Mayhem. Won top honors, ranking 1st out of 200 competitors.
+
+### Certifications
+- **Oracle AI Foundations** — Oracle
+- **AWS Cloud Practitioner Digital Badge** — AWS Academy
+- **Python** — Cisco Networking Academy
+- **Java Core Basic** — Infosys Springboard
+- **SQL Certification** — HackerRank
 
 ### Technical Skills
 - **Programming Languages**: Python, Java, JavaScript, SQL

@@ -49,20 +49,20 @@ export const portfolioData = {
       img: "/assests/aimockproject.png"
     },
     {
-      title: "NutriKid – AI Pediatric Nutrition Platform",
-      desc: "Developed end-to-end AI pipelines for RAG-based nutrition analysis using ICMR/NIN data for child growth tracking, meal logging, and real-time feedback with safety constraints.",
+      title: "NutriKids – AI Pediatric Nutrition Platform",
+      desc: "Developed end-to-end AI pipelines for RAG-based nutrition analysis using ICMR/NIN data for child growth tracking, meal logging, and real-time feedback with safety validation.",
       tech: ["RAG Architecture", "LLMs", "Full-Stack", "Safety Validation"],
       github: "https://github.com/AbhiGen",
       live: "#",
-      placeholder: "NutriKid AI"
+      img: "/assests/nutrikids.jpg"
     },
     {
-      title: "Bengaluru House Price Prediction",
-      desc: "Built an ML pipeline using Linear Regression and Random Forest. Engineered features like city center proximity and generated insights using heatmaps and SHAP explainability graphs.",
-      tech: ["Python", "Scikit-learn", "Streamlit", "SHAP"],
+      title: "Reliable Distributed Key-Value Store",
+      desc: "Designed a fault-tolerant distributed key-value store using replication and quorum-based consistency to ensure strong consistency. Implemented heartbeat-based failure detection, automatic node recovery, and scalable multi-node architecture using concurrency and socket communication.",
+      tech: ["Replication", "Quorum Consistency", "Concurrency", "Sockets"],
       github: "https://github.com/AbhiGen",
       live: "#",
-      placeholder: "Price Prediction"
+      img: "/assests/distributed.png"
     },
     {
       title: "Anti-Theft Bag Security System",
@@ -70,7 +70,7 @@ export const portfolioData = {
       tech: ["STM32F401", "Decision Tree", "Machine Learning", "Bluetooth"],
       github: "https://github.com/AbhiGen",
       live: "#",
-      placeholder: "Anti-Theft System"
+      img: "/assests/antitheft.png"
     }
   ],
   experience: [
@@ -98,6 +98,13 @@ export const portfolioData = {
       subtitle: "Amrita Vishwa Vidyapeetham, Coimbatore",
       desc: "Currently maintaining a CGPA of 8.2. Class Representative (2023–2024)."
     }
+  ],
+  certifications: [
+    { title: "Oracle AI Foundations", issuer: "Oracle" },
+    { title: "AWS Cloud Practitioner Digital Badge", issuer: "AWS Academy" },
+    { title: "Python", issuer: "Cisco Networking Academy" },
+    { title: "Java Core Basic", issuer: "Infosys Springboard" },
+    { title: "SQL Certification", issuer: "HackerRank" }
   ],
   contact: {
     email: "abhirambikkina@gmail.com",

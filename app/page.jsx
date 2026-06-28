@@ -15,6 +15,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Experience from './components/Experience';
+import Certifications from './components/Certifications';
 import Resume from './components/Resume';
 import Stats from './components/Stats';
 import Contact from './components/Contact';
@@ -119,6 +120,7 @@ export default function Home() {
         <Skills skills={portfolioData.skills} />
         <Projects projects={portfolioData.projects} githubUrl={`https://github.com/${portfolioData.github.username}`} />
         <Experience experience={portfolioData.experience} />
+        <Certifications certifications={portfolioData.certifications} />
         <Resume data={portfolioData.resume} />
         <Stats 
           githubStats={githubStats} 
