@@ -148,12 +148,9 @@ export default function Chatbot() {
         {/* Chat Header */}
         <div className="chatbot-header">
           <div className="chatbot-header-info">
-            <div className="chatbot-avatar-container">
-              <div className="chatbot-avatar-dot" />
-            </div>
             <div>
               <h3>Abhi's AI Assistant</h3>
-              <p>Online • Gemini Powered</p>
+              <p>Online</p>
             </div>
           </div>
           <button 
