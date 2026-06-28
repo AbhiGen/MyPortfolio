@@ -70,7 +70,12 @@ export default function Chatbot() {
       });
 
       if (!response.ok) {
-        throw new Error('Failed to get response');
+        let errMsg = 'Failed to get response';
+        try {
+          const errData = await response.json();
+          errMsg = errData.error || errData.message || errMsg;
+        } catch (_) {}
+        throw new Error(errMsg);
       }
 
       const data = await response.json();
@@ -90,7 +95,7 @@ export default function Chatbot() {
         {
           id: `msg-${Date.now()}-error`,
           sender: 'assistant',
-          text: "I'm sorry, I encountered a connection issue. Please verify your internet connection or try again shortly."
+          text: `Error: ${error.message}. Please verify settings or try again.`
         }
       ]);
     } finally {
