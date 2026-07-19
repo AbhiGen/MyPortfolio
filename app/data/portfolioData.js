@@ -53,7 +53,7 @@ export const portfolioData = {
       desc: "Developed end-to-end AI pipelines for RAG-based nutrition analysis using ICMR/NIN data for child growth tracking, meal logging, and real-time feedback with safety validation.",
       tech: ["RAG Architecture", "LLMs", "Full-Stack", "Safety Validation"],
       github: "https://github.com/AbhiGen",
-      live: "#",
+      live: "https://nutrikids-frontend.vercel.app/",
       img: "/assests/nutrikids.jpg"
     },
     {
@@ -75,10 +75,34 @@ export const portfolioData = {
   ],
   experience: [
     {
+      year: "Mar 2026 - May 2026",
+      title: "Back End Developer Intern",
+      subtitle: "Platinum Software",
+      desc: "Worked on an AI-enabled Sales CRM with an Intelligent Chatbot System. Developed REST APIs, integrated backend services with an LLM-powered chatbot, and implemented efficient data retrieval."
+    },
+    {
+      year: "Jan 2026 - Jun 2026",
+      title: "Full Stack Engineer Intern",
+      subtitle: "Overall Health and Nutrition",
+      desc: "Worked on NutriBite, an AI-powered pediatric nutrition platform. Developed core features including child profile management, meal logging, and growth tracking."
+    },
+    {
       year: "2025",
-      title: "Research Presentation",
-      subtitle: "I-SMAC 2025, Nepal",
-      desc: "Presented research paper: “Novel LLM-Based Framework for Kids Nutrition Recommendations”."
+      title: "Research Paper Publication",
+      subtitle: "IEEE Xplore | I-SMAC 2025",
+      desc: "Published “A Novel LLM-Based Framework for Kids Nutrition Recommendations” exploring LLMs and RAG for personalized nutrition recommendations."
+    },
+    {
+      year: "2025",
+      title: "Top 8 / 128 Teams",
+      subtitle: "Technova 2025 Hackathon",
+      desc: "Developed MediSphere, a Smart Hospital Management System integrating AI for smart patient management, predictive analytics, and chatbot-driven support."
+    },
+    {
+      year: "2025",
+      title: "Top 100 / 600+ Teams",
+      subtitle: "Scaler Hackathon, Bengaluru",
+      desc: "Built HireVerse, an AI-powered interview preparation kit with dynamic question generation and AI-driven mock interviews using Gemini API."
     },
     {
       year: "2025",
@@ -97,6 +121,49 @@ export const portfolioData = {
       title: "B.Tech in Computer Science Engineering",
       subtitle: "Amrita Vishwa Vidyapeetham, Coimbatore",
       desc: "Currently maintaining a CGPA of 8.2. Class Representative (2023–2024)."
+    }
+  ],
+  research: [
+    {
+      title: "A Novel LLM-Based Framework for Kids Nutrition Recommendations",
+      publishedIn: "IEEE Xplore",
+      conference: "9th International Conference on I-SMAC 2025 (IEEE)",
+      desc: "Explores how Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) can be used to deliver personalized, evidence-based nutrition recommendations for children, bringing together AI and healthcare.",
+      guide: "Dr. T. Senthil Kumar",
+      coAuthors: "Pavan Vignesh, Dinesh Veera Bhargav, Kuladeep Reddy"
+    }
+  ],
+  internships: [
+    {
+      role: "Full Stack Engineer Intern",
+      company: "Overall health and nutrition",
+      duration: "Jan 2026 - Jun 2026 · 6 mos",
+      location: "India · Remote",
+      desc: "Worked as a Full Stack Engineer on NutriBite, an AI-powered pediatric nutrition platform. Developed core features including child profile management, meal logging, growth tracking, and seamless frontend-backend integration."
+    },
+    {
+      role: "Back End Developer Intern",
+      company: "Platinum Software",
+      duration: "Mar 2026 - May 2026 · 3 mos",
+      location: "India · Remote",
+      desc: "Worked as a Backend Developer on an AI-enabled Sales CRM with an Intelligent Chatbot System. Developed REST APIs, integrated backend services with an LLM-powered chatbot, implemented efficient data retrieval, and contributed to a live product successfully deployed for client use."
+    }
+  ],
+  hackathons: [
+    {
+      title: "Scaler Hackathon",
+      location: "Scaler School of Technology, Bengaluru",
+      project: "HireVerse",
+      achievement: "Top 100 Teams (out of 600+)",
+      desc: "Built HireVerse – a complete AI-powered interview preparation kit featuring dynamic question generation, behavioral questions, and AI-driven mock interview simulations using the Gemini API. Qualified for Round 2 and presented the implementation.",
+      techStack: ["React", "TailwindCSS", "Node.js", "Express.js", "Gemini API", "MongoDB", "AWS EC2"]
+    },
+    {
+      title: "Technova 2025",
+      project: "MediSphere",
+      achievement: "Top 8 Teams (out of 128)",
+      desc: "Developed an AI-powered Smart Hospital Management System that seamlessly integrates AI to enhance patient care, streamline doctor appointments, and revolutionize EHR management. Featured predictive analytics and chatbot-driven support.",
+      team: ["Tharun Kumar", "Pavan Vignesh", "Dinesh", "Veerabhargav", "Kuladeep Reddy"]
     }
   ],
   certifications: [
